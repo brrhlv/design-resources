@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 582,
+    "totalResources": 600,
     "totalCategories": 35
   },
   "categories": [
@@ -763,7 +763,26 @@
       "name": "Angular UI Libraries",
       "slug": "angular-ui-libraries",
       "description": "UI component libraries for Angular",
-      "resources": []
+      "resources": [
+        {"name": "Material Angular", "url": "https://material.angular.io/", "description": "UI library for Angular based on Material design"},
+        {"name": "NG Bootstrap", "url": "https://ng-bootstrap.github.io/#/home", "description": "UI library for Angular based on the Bootstrap framework"},
+        {"name": "PrimeNG", "url": "https://www.primefaces.org/primeng/#/", "description": "Powerful UI component library for Angular"},
+        {"name": "Onsen Angular", "url": "https://onsen.io/angular2/", "description": "Hybrid mobile and PWA UI library for Angular and Onsen UI"},
+        {"name": "NG Lightning", "url": "https://ng-lightning.github.io/ng-lightning/#/", "description": "Native Angular components and directives for Lightning Design System"},
+        {"name": "NG Semantic", "url": "https://github.com/vladotesanovic/ngSemantic", "description": "UI library for Angular based on Semantic UI"},
+        {"name": "Nebular", "url": "https://akveo.github.io/nebular/", "description": "Customizable UI Kit, Auth and Security for Angular"},
+        {"name": "Alyle UI", "url": "https://alyle.io/", "description": "Minimal components set for Angular"},
+        {"name": "NGX Bootstrap", "url": "https://valor-software.com/ngx-bootstrap/#/", "description": "Another UI library for Angular based on the Bootstrap framework"},
+        {"name": "NG Zorro", "url": "https://ng.ant.design/", "description": "UI library for Angular based on Ant Design"},
+        {"name": "ngx-pagination", "url": "https://www.npmjs.com/package/ngx-pagination", "description": "npm library for pagination in datatables"},
+        {"name": "ng-multiselect-dropdown", "url": "https://www.npmjs.com/package/ng-multiselect-dropdown", "description": "Multi select drop-down component for Angular forms"},
+        {"name": "@tsparticles/angular", "url": "https://github.com/tsparticles/angular", "description": "Lightweight Angular component for creating particles"},
+        {"name": "Covalent UI", "url": "https://teradata.github.io/covalent/v3/#/", "description": "Angular UI platform focused on solving common enterprise needs"},
+        {"name": "Clarity", "url": "https://clarity.design/", "description": "CSS based Angular UI framework developed by VMware group"},
+        {"name": "Taiga UI", "url": "https://taiga-ui.dev/", "description": "Fully-treeshakable Angular UI Kit with multiple base libraries and add-ons"},
+        {"name": "ngx-admin", "url": "https://akveo.github.io/ngx-admin/", "description": "Admin template based on Angular 10+ and Nebular"},
+        {"name": "spartan", "url": "https://www.spartan.ng/", "description": "Cutting-edge tools powering Angular full-stack development"}
+      ]
     },
     {
       "id": 23,
