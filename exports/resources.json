@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 274,
+    "totalResources": 283,
     "totalCategories": 35
   },
   "categories": [
@@ -358,7 +358,17 @@
       "name": "Stock Music & Sound Effects",
       "slug": "stock-music-sound-effects",
       "description": "Websites that offer free music and sound effects for projects",
-      "resources": []
+      "resources": [
+        {"name": "YouTube Studio Audio Library", "url": "https://www.youtube.com/audiolibrary", "description": "Royalty-free audio library for downloadable music and sound effects, cleared for YouTube monetization"},
+        {"name": "Free Stock Music", "url": "https://www.free-stock-music.com/", "description": "Royalty free stock music for YouTube videos, podcasts, and similar projects"},
+        {"name": "Bensound", "url": "https://www.bensound.com/", "description": "Download royalty free music for free and use it in your project"},
+        {"name": "Mixkit Music", "url": "https://mixkit.co/free-stock-music/", "description": "Free music available for creative projects"},
+        {"name": "Freesound", "url": "https://freesound.org/", "description": "Free stock music and sounds"},
+        {"name": "Free Music Archive", "url": "https://freemusicarchive.org/", "description": "Collaborative database of creative-commons licensed sound for musicians"},
+        {"name": "Musopen", "url": "https://musopen.org/music/", "description": "Online copyright free classical music library"},
+        {"name": "Pixabay Music", "url": "https://pixabay.com/music/", "description": "Free music downloads for YouTube videos, vlogs, films, and podcasts"},
+        {"name": "Unminus", "url": "https://www.unminus.com/", "description": "Free premium music for your projects, royalty free and cleared for YouTube"}
+      ]
     },
     {
       "id": 11,
