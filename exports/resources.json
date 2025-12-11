@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 373,
+    "totalResources": 397,
     "totalCategories": 35
   },
   "categories": [
@@ -497,7 +497,32 @@
       "name": "CSS Frameworks",
       "slug": "css-frameworks",
       "description": "CSS and UI frameworks for building responsive websites",
-      "resources": []
+      "resources": [
+        {"name": "Tailwind CSS", "url": "https://tailwindcss.com/", "description": "Low level, utility-first framework"},
+        {"name": "Bootstrap", "url": "https://getbootstrap.com/", "description": "Popular UI framework with tons of components that use both CSS and JS"},
+        {"name": "Materialize", "url": "https://materializecss.com/", "description": "A modern responsive front-end framework based on Material Design"},
+        {"name": "Material Design Lite", "url": "https://getmdl.io/", "description": "Light framework based on Material Design. No JS dependency"},
+        {"name": "Bulma", "url": "https://bulma.io/", "description": "Modern CSS framework with no JS"},
+        {"name": "Skeleton", "url": "http://getskeleton.com/", "description": "Extremely light framework for basic UI elements"},
+        {"name": "Semantic UI", "url": "https://semantic-ui.com/", "description": "Empowers designers and developers by creating a shared vocabulary for UI"},
+        {"name": "Fomantic UI", "url": "https://fomantic-ui.com/", "description": "A community fork of Semantic-UI"},
+        {"name": "Foundation", "url": "https://get.foundation/", "description": "Mobile first framework with clean markup"},
+        {"name": "Pure CSS", "url": "https://purecss.io/", "description": "A set of small, responsive CSS modules"},
+        {"name": "UIKit", "url": "https://getuikit.com/", "description": "Lightweight and modular front-end framework"},
+        {"name": "Susy", "url": "https://www.oddbird.net/susy/", "description": "Lightweight, grid-layout engine for Sass"},
+        {"name": "Milligram", "url": "https://milligram.io/", "description": "Minimalist CSS framework"},
+        {"name": "Vanilla Framework", "url": "https://vanillaframework.io/", "description": "Simple, extensible CSS framework written in Sass"},
+        {"name": "Spectre CSS", "url": "https://picturepan2.github.io/spectre/", "description": "Lightweight, modern CSS framework"},
+        {"name": "Picnic CSS", "url": "https://picnicss.com/", "description": "Lightweight and beautiful library"},
+        {"name": "Wing", "url": "https://kbrsh.github.io/wing/", "description": "A beautiful CSS framework designed for minimalists"},
+        {"name": "Chota", "url": "https://jenil.github.io/chota/", "description": "A micro (~3kb) CSS framework"},
+        {"name": "Blueprint CSS", "url": "https://blueprintcss.dev/", "description": "A lightweight layout library for building great responsive mobile first UIs"},
+        {"name": "W3.CSS", "url": "https://www.w3schools.com/w3css/", "description": "Modern CSS framework with support for desktop, tablet, and mobile design"},
+        {"name": "98.css", "url": "https://jdan.github.io/98.css/", "description": "A design system for building faithful recreations of old UIs"},
+        {"name": "NES CSS", "url": "https://nostalgic-css.github.io/NES.css/", "description": "NES-style CSS Framework"},
+        {"name": "Shoelace", "url": "https://www.shoelace.style/", "description": "Lightweight, forward-thinking CSS library built with future CSS syntax"},
+        {"name": "MVP.css", "url": "https://andybrewer.github.io/mvp/", "description": "Minimalist stylesheet for HTML elements with no class names required"}
+      ]
     },
     {
       "id": 16,

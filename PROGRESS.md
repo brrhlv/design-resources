@@ -5,15 +5,16 @@
 
 ## Current Session
 - **Date**: 2024-12-10
-- **Last Category Completed**: HTML & CSS Templates
-- **Resources Added This Session**: 373
-- **Next Category**: CSS Frameworks
+- **Last Category Completed**: CSS Frameworks
+- **Resources Added This Session**: 397
+- **Next Category**: CSS Methodologies
 - **Status**: Extracting resources from reference repo
 
 ## Session History
 
 | Date | Categories Completed | Resources Added | Notes |
 |------|---------------------|-----------------|-------|
+| 2024-12-10 | CSS Frameworks | 24 | 1 dead URL excluded (blazecss 000) |
 | 2024-12-10 | HTML & CSS Templates | 15 | 3 dead URLs excluded (zerotheme 000, html5xcss3 000, free-css 000) |
 | 2024-12-10 | UI Components & Kits | 32 | All 32 URLs verified (combined from 2 sources) |
 | 2024-12-10 | Product & Image Mockups | 17 | 2 dead URLs excluded (facebook.design 000, threed.io 000) |
@@ -56,7 +57,7 @@
 | 12 | Product & Image Mockups | complete | 17 | 2024-12-10 |
 | 13 | UI Components & Kits | complete | 32 | 2024-12-10 |
 | 14 | HTML & CSS Templates | complete | 15 | 2024-12-10 |
-| 15 | CSS Frameworks | pending | 0 | - |
+| 15 | CSS Frameworks | complete | 24 | 2024-12-10 |
 | 16 | CSS Methodologies | pending | 0 | - |
 | 17 | CSS Animations | pending | 0 | - |
 | 18 | Javascript Animation Libraries | pending | 0 | - |
@@ -79,10 +80,10 @@
 | 35 | Others | pending | 0 | - |
 
 ## Totals
-- **Categories Completed**: 14/35
-- **Total Resources**: 373
-- **Total Verified URLs**: 373
-- **Dead Links Found**: 37
+- **Categories Completed**: 15/35
+- **Total Resources**: 397
+- **Total Verified URLs**: 397
+- **Dead Links Found**: 38
 
 ## Notes
 - URL verification is enabled for all resources
