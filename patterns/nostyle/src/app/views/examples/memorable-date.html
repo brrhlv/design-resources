@@ -1,0 +1,27 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "memorable-date" %}
+
+{% block pageHeader %}
+	{{h1({ text: 'Memorable date' })}}
+{% endblock pageHeader %}
+
+{% block mainContent %}
+
+	{{memorableDate({
+		legend: 'Date of birth',
+		day: {
+			name: 'day',
+			label: "Day"
+		},
+		month: {
+			name: 'month',
+			label: "Month"
+		},
+		year: {
+			name: 'year',
+			label: "Year"
+		},
+		hint: 'DD MM YYYY'
+	})}}
+
+{% endblock mainContent %}

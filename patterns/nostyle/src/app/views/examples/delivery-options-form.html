@@ -1,0 +1,21 @@
+{% extends 'layouts/raw.html' %}
+
+{% block mainContent %}
+
+	<form>
+		{{radioButtons({
+			name: 'deliveryoptions',
+			legend: 'Delivery options',
+			choices: [
+				{ id: "1", label: "Standard (Free, 2-3 days)" },
+				{ id: "2", label: "Next day (£6)" }
+			]
+		})}}
+
+		{{primaryButton({
+			text:'Continue',
+			name: 'continue'
+		})}}
+	</form>
+
+{% endblock mainContent %}

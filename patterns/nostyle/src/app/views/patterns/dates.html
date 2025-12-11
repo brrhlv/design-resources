@@ -1,0 +1,40 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Asking for dates - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'dates' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Ask users for dates' })}}
+
+	<p>Help users provide a date using one of the following:</p>
+	<ul>
+		<li>Date picker</li>
+		<li>Memorable date</li>
+	</ul>
+
+	{{h2({ text:  'Date picker' })}}
+	<p>Use this when users need to find a date.</p>
+
+	{{example({
+		url: '/examples/date-picker',
+		width: 400,
+		height: 200
+	})}}
+
+	{{h2({ text:  'Memorable date' })}}
+	<p>Use this for dates that people know.</p>
+
+	{{example({
+		url: '/examples/memorable-date',
+		width: 400,
+		height: 250
+	})}}
+
+{% endblock mainContent %}

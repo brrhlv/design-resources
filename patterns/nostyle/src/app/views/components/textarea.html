@@ -1,0 +1,27 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Textarea - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'textarea' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+	{{h1({ text: 'Textarea' })}}
+
+	<p>Use the Textarea component to let users type more than a single line of text.</p>
+
+	{{example({
+		url: '/examples/textarea',
+		width: 400,
+		height: 290
+	})}}
+
+	<!-- <div class="html">
+	<pre>{{""+textarea({ name: 'delivery', label: 'Delivery notes' })}}</pre>
+	</div> -->
+
+{% endblock mainContent %}

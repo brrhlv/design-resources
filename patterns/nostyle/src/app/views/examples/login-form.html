@@ -1,0 +1,74 @@
+{% extends 'layouts/raw.html' %}
+
+{% block pageScript %}
+	<script>
+		var validator = new FormValidator(document.forms[0]);
+		validator.addValidator('email', [{
+		 	method: function(field) {
+		    	return field.value.trim().length > 0;
+			},
+			message: 'Enter your email address'
+		},{
+			method: function(field) {
+		    	return (field.value.indexOf('@') > -1);
+		  	},
+			message: 'You need to enter the ‘at’ symbol in the email address'
+		}]);
+		validator.addValidator('password', [{
+			method: function(field) {
+		    	return field.value.trim().length > 0;
+			},
+			message: 'Enter your password'
+		}, {
+			method: function(field) {
+		    	return field.value.length > 8;
+			},
+			message: 'Your password must contain at least 8 characters'
+		}, {
+			method: function(field) {
+		    return /\d/.test(field.value);
+			},
+			message: 'Your password must contain at least one number'
+		}]);
+
+		new PasswordRevealer(document.getElementById('password'));
+
+	</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+
+
+	{{errorSummary({ heading: "There's a problem" })}}
+	{{h1({ text: 'Log in' })}}
+	<div class="prose">
+		<ul>
+				<li>Not signed up? <a href="/examples/registration-form">Register</a></li>
+				<li>Forgot password? <a href="#">Reset password</a></li>
+			</ul>
+	</div>
+
+
+
+	<form novalidate>
+		{{textBox({
+			name: 'email',
+			label: 'Email address',
+			attributes: ' autocapitalize="none" autocorrect="off" spellcheck="false"
+		'})}}
+
+		{{textBox({
+			name: 'password',
+			label: 'Password',
+			type: 'password',
+			hint: 'Must contain 8+ characters with at least 1 number'
+		})}}
+
+		{{primaryButton({
+			text: 'Log in',
+			name: 'login'
+		})}}
+	</form>
+
+
+{% endblock mainContent %}

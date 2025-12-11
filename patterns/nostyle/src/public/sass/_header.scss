@@ -1,0 +1,13 @@
+header {
+  display: block;
+  background-color: $colour-gray-800;
+  padding: $spacing-scale-3;
+  color: $colour-gray-100;
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 0.8;
+}
+
+header span {
+  font-weight: normal;
+}

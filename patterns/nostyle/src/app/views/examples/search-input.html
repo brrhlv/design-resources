@@ -1,0 +1,10 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "search-box" %}
+
+{% block mainContent %}
+	{{textBox({
+		name: 'search',
+		label: 'Search',
+		type: 'search'
+	})}}
+{% endblock mainContent %}

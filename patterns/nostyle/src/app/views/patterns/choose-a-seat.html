@@ -1,0 +1,30 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Choosing a seat - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'seat-chooser' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Choose a seat' })}}
+
+	{{h2({ text: 'Single class' })}}
+	{{example({
+		url: '/examples/seat-chooser',
+		width: 400,
+		height: 380
+	})}}
+
+	{{h2({ text: 'Multiple classes' })}}
+	{{example({
+		url: '/examples/seat-chooser--nested',
+		width: 400,
+		height: 650
+	})}}
+
+{% endblock mainContent %}

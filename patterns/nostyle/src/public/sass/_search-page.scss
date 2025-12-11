@@ -1,0 +1,24 @@
+.searchHeader {
+	padding: $spacing-scale-2 $spacing-scale-3;
+	background-color: $colour-gray-800;
+	color: $colour-gray-100;
+	overflow: hidden;
+}
+
+.searchHeader div {
+	float: left;
+	line-height: 1em;
+	padding: $spacing-scale-2 0;
+}
+
+.searchHeader button {
+	float: right;
+	background: none;
+	border: none;
+	padding: $spacing-scale-2;
+}
+
+.searchForm {
+	padding: $spacing-scale-6 $spacing-scale-5;
+	background-color: $colour-gray-300;
+}

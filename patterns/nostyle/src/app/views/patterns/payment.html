@@ -1,0 +1,22 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Asking for payment - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'payment' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Ask users for payment' })}}
+
+	{{example({
+		url: '/examples/payment-form',
+		width: 400,
+		height: 800
+	})}}
+
+{% endblock mainContent %}

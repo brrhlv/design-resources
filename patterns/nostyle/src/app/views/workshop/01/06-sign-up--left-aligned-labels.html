@@ -1,0 +1,43 @@
+{% extends 'layouts/raw.html' %}
+
+
+{% block mainContent %}
+
+	{{h1({ text: 'Sign up' })}}
+
+	<form novalidate>
+		{{textBox({
+			name: 'first-name',
+			label: 'First name',
+			modifierClasses: 'left-aligned-labels'
+		})}}
+
+		{{textBox({
+			name: 'last-name',
+			label: 'Last name',
+			modifierClasses: 'left-aligned-labels'
+		})}}
+
+		{{textBox({
+			name: 'email',
+			label: 'Email address',
+			modifierClasses: 'left-aligned-labels'
+		})}}
+
+		{% set hint = "Must be at least eight characters and include at least one number and one symbol" %}
+
+		{{textBox({
+			name: 'password',
+			label: 'Password',
+			type: 'password',
+			hint: hint,
+			modifierClasses: 'left-aligned-labels'
+		})}}
+
+		{{primaryButton({
+			text: 'Sign up',
+			name: 'signup'
+		})}}
+	</form>
+
+{% endblock mainContent %}

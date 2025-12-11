@@ -1,0 +1,36 @@
+@mixin button($bg) {
+	font: inherit;
+	border: none;
+	appearance: none;
+	-webkit-appearance: none;
+	@include typography(button);
+	padding: $spacing-scale-3 $spacing-scale-6;
+	background-color: $bg;
+	font-weight: bold;
+	border-radius: 4px;
+	&:hover {
+		background-color: darken($bg, 15%);
+	}
+}
+
+/**************************************
+* Primary button
+**************************************/
+
+.primaryButton {
+	@include button($colour-green-600);
+	color: $colour-gray-100;
+}
+
+/**************************************
+* Secondary button
+**************************************/
+
+@mixin secondaryButton {
+	@include button($colour-gray-600);
+	color: $colour-gray-100;
+}
+
+.secondaryButton {
+	@include secondaryButton;
+}

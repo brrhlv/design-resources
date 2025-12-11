@@ -41,6 +41,7 @@ A curated list of design resources including UI graphics, fonts, colors, icons, 
 - [AI/ML Development Tools](#aiml-development-tools)
 - [No-Code/Low-Code Platforms](#no-codelow-code-platforms)
 - [Others](#others)
+- [Local Pattern Libraries](#local-pattern-libraries)
 
 ---
 
@@ -1282,6 +1283,28 @@ A curated list of design resources including UI graphics, fonts, colors, icons, 
 | Website | Description |
 |---------|-------------|
 | | *Resources coming soon* |
+
+<div align="right">
+    <b><a href="#table-of-contents">Back To Top</a></b>
+</div>
+
+---
+
+## Local Pattern Libraries
+
+>Downloadable pattern libraries and component collections stored locally in the `patterns/` directory
+
+| Library | Stars | Description |
+|---------|-------|-------------|
+| [react-bits](patterns/react-bits/) | 6.3k+ | 110+ animated React components (TextAnimations, Animations, Components, Backgrounds) with JS/TS and CSS/Tailwind variants |
+| [advanced-react-patterns](patterns/advanced-react-patterns/) | 12k+ | Kent C. Dodds workshop covering Compound Components, State Reducers, Control Props |
+| [simorgh](patterns/simorgh/) | 800+ | BBC's production React design system with components, contexts, hooks, utilities |
+| [animated-react-collection](patterns/animated-react-collection/) | 400+ | Curated meta-list of animated React component libraries |
+| [hyperui](patterns/hyperui/) | 11.8k | 600+ free Tailwind CSS v4 components for marketing, eCommerce, application UI |
+| [flowbite](patterns/flowbite/) | 9k | Complete Tailwind UI component library with Figma design files |
+| [nostyle](patterns/nostyle/) | 161 | Accessible design system focused on A11y-compliant forms and components |
+
+See [patterns/README.md](patterns/README.md) for detailed documentation.
 
 <div align="right">
     <b><a href="#table-of-contents">Back To Top</a></b>

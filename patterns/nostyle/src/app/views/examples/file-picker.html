@@ -1,0 +1,9 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "file-input" %}
+
+{% block mainContent %}
+	{{fileInput({
+		name: 'file',
+		label: 'Choose file'
+	})}}
+{% endblock mainContent %}

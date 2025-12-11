@@ -1,0 +1,78 @@
+.firstClass .field-legend,
+.economyClass .field-legend {
+	font-weight: normal;
+	font-style: italic;
+}
+
+.plane-row {
+	overflow: hidden;
+	margin-bottom: $spacing-scale-2;
+}
+
+.plane-seat {
+	float: left;
+	margin-right: $spacing-scale-1;
+}
+
+.plane-seat--economyClass:nth-child(3) {
+	margin-right: $spacing-scale-2;
+}
+
+.plane-seat--firstClass:nth-child(2) {
+	margin-right: $spacing-scale-6;
+}
+
+.plane-seat label {
+	padding: $spacing-scale-2;
+	margin-bottom: 0;
+	position: relative;
+	color: $colour-gray-800;
+}
+
+.plane-seat label:hover {
+	background-color: $colour-gray-500;
+}
+
+.enhanced .plane-seat input {
+	position: absolute;
+	left: -9999em;
+}
+
+.enhanced .plane-seat label {
+	padding: 0;
+	background: none;
+}
+
+.enhanced .plane-seatNumber {
+	border-radius: $spacing-scale-1;
+	margin: $spacing-scale-1 0px;
+	border: 2px solid $colour-gray-600;
+	border-top: 2px solid $colour-gray-600;
+	width: 1.3em;
+	padding: $spacing-scale-2;
+	text-align: center;
+	display: block;
+	background-color: $colour-gray-300;
+}
+
+.enhanced .plane-seatNumber:hover {
+	border-color: $colour-gray-600;
+	background-color: $colour-gray-600;
+}
+
+.enhanced [type="checkbox"]:focus + .plane-seatNumber {
+	border: 2px solid $colour-yellow-500;
+}
+
+.enhanced [type="checkbox"]:checked + .plane-seatNumber {
+	background-color: $colour-green-700;
+  border-color: $colour-green-700;
+  color: white;
+}
+
+.enhanced [type="checkbox"]:disabled + .plane-seatNumber {
+	text-decoration: line-through;
+	background-color: $colour-gray-600;
+	border-color: $colour-gray-600;
+	color: $colour-gray-700;
+}

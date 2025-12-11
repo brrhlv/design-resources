@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+{% from "h1/macro.html" import h1 %}
+{% from "h2/macro.html" import h2 %}
+{% from "example/macro.html" import example %}
+{% from "error-summary/macro.html" import errorSummary %}
+{% from "text-box/macro.html" import textBox %}
+{% from "file-input/macro.html" import fileInput %}
+{% from "textarea/macro.html" import textarea %}
+{% from "select-box/macro.html" import selectBox %}
+{% from "datalist/macro.html" import datalist %}
+{% from "radios/macro.html" import radioButtons %}
+{% from "checboxes/macro.html" import checkboxes %}
+{% from "memorable-date/macro.html" import memorableDate %}
+{% from "seat-chooser/macro.html" import seatChooser %}
+{% from "primary-button/macro.html" import primaryButton %}
+{% from "secondary-button/macro.html" import secondaryButton %}
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{% block title %}No Style Design System{% endblock title %}</title>
+		<link rel="shortcut icon" href="/public/img/favicon.ico" type="image/ico">
+		<link rel="icon" href="/public/img/favicon.ico" type="image/ico">
+		<script>
+			document.documentElement.className = 'enhanced';
+		</script>
+
+		{% block css %}
+		<!-- build:css(src) /public/css/app.min.css -->
+			<link rel="stylesheet" href="/public/css/main.css">
+		<!-- endbuild -->
+		{% endblock css %}
+		{% block pageCss %}
+		{% endblock pageCss %}
+	</head>
+	<body class="{{bodyClass}}">
+		<svg style="display: none">
+			<symbol id="tick" viewBox="0 0 24 24">
+				<path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+			</symbol>
+		</svg>
+		<svg style="display: none">
+		  <symbol id="error-icon" viewBox="0 0 24 24">
+				<path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+		  </symbol>
+		</svg>
+
+		{% block body %}{% endblock %}
+
+		{% block script %}
+		<!-- build:js(src) /public/js/vendor.min.js -->
+			<script src="/public/js/vendor/jquery.js"></script>
+		<!-- endbuild -->
+		<!-- build:js(src) /public/js/app.min.js -->
+			<script src="/public/components/stepper/Stepper.js"></script>
+			<script src="/public/components/select-all/SelectAll.js"></script>
+			<script src="/public/components/autocomplete/Autocomplete.js"></script>
+			<script src="/public/components/form-validator/FormValidator.js"></script>
+			<script src="/public/components/checkbox-collapser/CheckboxCollapser.js"></script>
+			<script src="/public/components/checkbox-limiter/CheckboxLimiter.js"></script>
+			<script src="/public/components/character-countdown/CharacterCountdown.js"></script>
+			<script src="/public/components/date-picker/DatePicker.js"></script>
+			<script src="/public/components/menu/Menu.js"></script>
+			<script src="/public/components/add-another/AddAnother.js"></script>
+			<script src="/public/components/dropzone/Dropzone.js"></script>
+			<script src="/public/components/search-form/SearchForm.js"></script>
+			<script src="/public/components/password-revealer/PasswordRevealer.js"></script>
+			<script src="/public/components/filter-collapser/FilterCollapser.js"></script>
+			<script src="/public/components/filter-requester/FilterRequester.js"></script>
+			<script src="/public/components/filter-menu/FilterMenu.js"></script>
+		<!-- endbuild -->
+		{% endblock script %}
+
+		{% block pageScript %}
+		{% endblock pageScript %}
+	</body>
+</html>

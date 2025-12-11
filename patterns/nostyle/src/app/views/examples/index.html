@@ -1,0 +1,13 @@
+{% extends 'layouts/item.html' %}
+{% set nav = "examples" %}
+
+{% block menu %}
+	{% include 'partials/examples-nav.html' %}
+{% endblock %}
+
+{% block mainContent %}
+	{{h1({ text: 'Examples' })}}
+
+	<p>Standalone examples of components and patterns.</p>
+
+{% endblock mainContent %}

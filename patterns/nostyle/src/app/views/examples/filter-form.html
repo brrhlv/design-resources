@@ -1,0 +1,119 @@
+{% extends 'layouts/raw.html' %}
+
+{% block pageScript %}
+	<script>
+
+		$('.filter fieldset').each(function(i, el) {
+			new FilterCollapser($(el));
+		});
+
+		new FilterRequester();
+		new FilterMenu();
+	</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+
+
+		<h1 class="filter-heading">Wallets</h1>
+		<div class="filter-marker"></div>
+		<div class="filter" aria-labelledby="filter-heading">
+
+			<div class="filter-wrapper">
+
+				<h2 id="filter-heading">Filter</h2>
+
+				<form role="form" method="get" action="/examples/filter-form">
+
+					{{checkboxes({
+						name: 'color',
+						legend: 'Color',
+						choices: [{
+							label: 'Red',
+							id: 'color',
+							value: 'red'
+						}, {
+							label: 'Yellow',
+							id: 'color1',
+							value: 'yellow'
+						},  {
+							label: 'Green',
+							id: 'color2',
+							value: 'green'
+						}]
+					})}}
+
+					{{radioButtons({
+						name: 'rating',
+						legend: 'Rating',
+						choices: [{
+							label: '4 stars and up',
+							id: 'popularity0',
+							value: '4'
+						},  {
+							label: '3 stars and up',
+							id: 'popularity1',
+							value: '3'
+						}, {
+							label: '2 stars and up',
+							id: 'popularity2',
+							value: '2'
+						}, {
+							label: '1 star and up',
+							id: 'popularity3',
+							value: '1'
+						}]
+					})}}
+
+					{{radioButtons({
+						name: 'another',
+						legend: 'Something else',
+						choices: [{
+							label: 'Value',
+							id: 'value0',
+							value: '4'
+						},  {
+							label: 'Value',
+							id: 'value1',
+							value: '3'
+						}, {
+							label: 'Value',
+							id: 'value2',
+							value: '2'
+						}, {
+							label: 'Value',
+							id: 'value3',
+							value: '1'
+						}]
+					})}}
+
+					{{checkboxes({
+						name: 'options',
+						legend: 'More options',
+						choices: [{
+							label: 'Option',
+							id: 'options',
+							value: '1'
+						}, {
+							label: 'Option',
+							id: 'options1',
+							value: '2'
+						},  {
+							label: 'Option',
+							id: 'options2',
+							value: '3'
+						}]
+					})}}
+
+					{{primaryButton({
+						text: 'Apply filters',
+						name: 'apply'
+					})}}
+				</form>
+			</div>
+		</div>
+		<div class="products">
+			{% include "partials/products.html" %}
+		</div>
+
+{% endblock mainContent %}

@@ -1,0 +1,20 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "checkboxes" %}
+
+{% block mainContent %}
+	{{checkboxes({
+		name: 'things',
+		legend: 'Things you like',
+		choices: [{
+			label: 'Chocolate',
+			id: 'things'
+		}, {
+			label: 'Money',
+			id: 'things1'
+		},  {
+			label: 'Sleep',
+			id: 'things2'
+		}]
+	})}}
+
+{% endblock mainContent %}

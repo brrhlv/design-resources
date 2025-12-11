@@ -1,0 +1,15 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Components{% endblock %}
+
+{% set nav = 'components' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({text: 'Components'})}}
+	<p>Re-usable parts of the interface. From buttons to form elements to menus.</p>
+{% endblock mainContent %}

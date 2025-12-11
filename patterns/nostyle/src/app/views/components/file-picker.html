@@ -1,0 +1,24 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}File picker - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'file-picker' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+
+{% block mainContent %}
+	{{h1({ text: 'File picker' })}}
+
+	<p>Help users select a file for upload using the File Picker component.</p>
+
+	{{example({
+		url: '/examples/file-picker',
+		width: 400,
+		height: 400
+	})}}
+
+{% endblock mainContent %}

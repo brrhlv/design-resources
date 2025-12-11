@@ -1,0 +1,51 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Text field - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'text-box' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+
+{% block mainContent %}
+	{{h1({ text: 'Text field' })}}
+
+	<p>Use the Text Field component to let users enter information.</p>
+
+	{{h2({ text: 'Text field' })}}
+
+	{{example({
+		url: '/examples/text-input',
+		width: 400,
+		height: 200
+	})}}
+
+	{{h2({ text: 'Password field' })}}
+
+	{{example({
+		url: '/examples/password-input',
+		width: 400,
+		height: 200
+	})}}
+
+	{{h2({ text: 'Email input' })}}
+
+	{{example({
+		url: '/examples/email-input',
+		width: 400,
+		height: 200
+	})}}
+
+	{{h2({ text: 'Search input' })}}
+
+	{{example({
+		url: '/examples/search-input',
+		width: 400,
+		height: 200
+	})}}
+
+
+{% endblock mainContent %}

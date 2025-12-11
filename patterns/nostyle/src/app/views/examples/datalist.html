@@ -1,0 +1,13 @@
+{% extends 'layouts/raw.html' %}
+
+{% block mainContent %}
+	{{datalist({
+		name: 'destination',
+		label: 'Destination',
+		choices: [
+			{ value: "1", text: "Afghanistan" },
+			{ value: "2", text: "Åland Islands" },
+			{ value: "3", text: "Albania" },
+			{ value: "4", text: "Algeria" }]
+		})}}
+{% endblock mainContent %}

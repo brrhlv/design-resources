@@ -1,0 +1,24 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Search - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'search' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Search' })}}
+
+	{{h2({ text: 'Global search form' })}}
+
+	{{example({
+		url: '/examples/search-form',
+		width: 400,
+		height: 300
+	})}}
+
+{% endblock mainContent %}

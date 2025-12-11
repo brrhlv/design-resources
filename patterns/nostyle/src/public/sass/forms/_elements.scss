@@ -1,0 +1,279 @@
+/**************************************
+* General
+**************************************/
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+.field {
+	max-width: 26em;
+	margin-bottom: $spacing-scale-6;
+}
+
+.field--inline {
+  margin-bottom: 0;
+  display: inline-block;
+  max-width: auto;
+}
+
+.field label,
+.field legend {
+	display: block;
+}
+
+.field-label {
+  @include typography(body);
+  display: block;
+  font-weight: bold;
+  color: $colour-gray-800;
+  margin-bottom: $spacing-scale-1;
+}
+
+.field-legend {
+  @include typography(body);
+  margin-bottom: $spacing-scale-1;
+  display: block;
+  font-weight: bold;
+  color: $colour-gray-800;
+}
+
+.field-hint {
+	color: $colour-gray-700;
+	margin-bottom: $spacing-scale-1;
+	display: block;
+}
+
+.field-error {
+	@include typography(body);
+	color: $colour-red-600;
+	font-weight: bold;
+	margin-bottom: $spacing-scale-2;
+	display: block;
+}
+
+.field-error svg {
+  margin-top: $spacing-scale-1;
+  vertical-align: bottom;
+  width: 1.5625em;
+  fill: $colour-red-600;
+  margin-right: -2px;
+  position: relative;
+  top: -1px;
+  left: -3px;
+}
+
+/**************************************
+* Select box
+**************************************/
+
+select {
+	width: 100%;
+	@include typography(body);
+}
+
+/**************************************
+* Text box
+**************************************/
+
+[type=text],
+[type=password],
+[type=number],
+[type=tel],
+[type=email],
+[type=date],
+[type=search],
+textarea {
+  width: 100%;
+  padding: $spacing-scale-3 - 2;
+  @include typography(body);
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid $colour-gray-600;
+}
+
+/**************************************
+* File input
+**************************************/
+
+[type=file] {
+	-webkit-appearance: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.25;
+  padding: $spacing-scale-3 $spacing-scale-2;
+  border: 2px solid $colour-gray-300;
+  background-color: $colour-gray-300;
+  width: 100%;
+}
+
+[type=file]:hover {
+  border: 2px solid $colour-gray-800;
+}
+
+/**************************************
+* Textarea
+**************************************/
+
+textarea {
+  height: 10em;
+}
+
+/**************************************
+* Radio buttons
+**************************************/
+
+.field-radioButton label {
+  background-color: $colour-gray-300;
+  margin-bottom: $spacing-scale-1;
+  display: block;
+  padding: ($spacing-scale-3 - 2) ($spacing-scale-4 - 2);
+  border: 2px solid $colour-gray-300;
+  color: $colour-gray-800;
+}
+
+.field-radioButton input {
+  margin-right: 10px;
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+}
+
+.field-radioButton label:hover {
+  border-color: $colour-gray-700;
+}
+
+/**************************************
+* Radio buttons
+**************************************/
+
+.field-checkbox label {
+  background-color: $colour-gray-300;
+  margin-bottom: $spacing-scale-1;
+  display: block;
+  padding: ($spacing-scale-3 - 2) ($spacing-scale-4 - 2);
+  border: 2px solid $colour-gray-300;
+  color: $colour-gray-800;
+}
+
+.field-checkbox input {
+	margin-right: 10px;
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+}
+
+.field-checkbox label:hover {
+  border-color: $colour-gray-700;
+}
+
+/**************************************
+* Date
+**************************************/
+
+.field-dayWrapper,
+.field-monthWrapper,
+.field-yearWrapper {
+	display: inline-block;
+}
+
+.field-dayWrapper,
+.field-monthWrapper {
+	width: 4em;
+}
+
+.field-yearWrapper {
+	width: 5em;
+}
+
+
+.field-dayWrapper label,
+.field-monthWrapper label,
+.field-yearWrapper label {
+  display: block;
+  color: $colour-gray-800;
+}
+
+.field-dayBox,
+.field-monthBox,
+.field-yearBox {
+	-webkit-appearance: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.25;
+  padding: $spacing-scale-2 - 2;
+  border: 2px solid $colour-gray-600;
+  -moz-appearance:textfield;
+}
+
+.field-dayBox {
+	width: 3em;
+}
+
+.field-monthBox {
+	width: 3em;
+}
+
+.field-yearBox {
+	width: 4.5em;
+}
+
+/**************************************
+* Focus
+**************************************/
+
+[type=text]:focus,
+[type=password]:focus,
+[type=number]:focus,
+[type=tel]:focus,
+[type=email]:focus,
+[type=date]:focus,
+[type=radio]:focus,
+[type=checkbox]:focus,
+[type=file]:focus,
+[type=search]:focus,
+[type=submit]:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 1px 4px $colour-yellow-500;
+}
+
+/**************************************
+* Width overrides
+**************************************/
+
+#expiry {
+	width: 5em;
+}
+
+#cvc {
+	width: 4em;
+}
+
+#postcode {
+    width: 8em;
+}
+
+#tdate,
+#date {
+    width: 11em;
+}

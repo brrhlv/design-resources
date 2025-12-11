@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+{% block body %}
+  <div class="wrapperPane">
+    {% include "partials/header.html" %}
+    {% include "partials/nav.html" %}
+    <div class="contentPane">
+      {% block content %}
+        <div class="pageContent">
+          {% block mainContent %}{% endblock%}
+        </div>
+      {% endblock %}
+    </div>
+  </div>
+{% endblock %}

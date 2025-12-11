@@ -1,0 +1,35 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Radios - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'seat-chooser' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+
+{% block mainContent %}
+	{{h1({ text: 'Seat chooser' })}}
+
+	<p>Let users select one or more plane seats.</p>
+	<p>This pattern also helps users choose other types of things such as cinema tickets.</p>
+
+	{{h2({ text: 'Single class' })}}
+
+	{{example({
+		url: '/examples/seat-chooser',
+		width: 400,
+		height: 420
+	})}}
+
+	{{h2({ text: 'Multiple classes' })}}
+
+	{{example({
+		url: '/examples/seat-chooser--nested',
+		width: 400,
+		height: 750
+	})}}
+
+{% endblock mainContent %}

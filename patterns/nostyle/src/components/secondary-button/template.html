@@ -1,0 +1,9 @@
+<input
+type="submit"
+class="secondaryButton {% if params.class %}{{params.class}}{% endif %}"
+name="{{params.name}}"
+value="{{params.text}}"
+{% if params.role %}
+  role="{{params.role}}"
+{% endif %}
+>

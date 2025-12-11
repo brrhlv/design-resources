@@ -1,0 +1,31 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Upload a file - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'upload-file' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Upload a file' })}}
+
+	{{h2({ text: 'Dropzone' })}}
+	{{example({
+		url: '/examples/dropzone',
+		width: 400,
+		height: 400
+	})}}
+
+	{{h2({ text: 'Download to upload' })}}
+	<p>Download a thing, make edits, upload it again</p>
+	{{example({
+		url: '/examples/download-to-upload',
+		width: 400,
+		height: 300
+	})}}
+
+{% endblock mainContent %}

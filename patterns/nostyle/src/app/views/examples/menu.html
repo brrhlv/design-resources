@@ -1,0 +1,19 @@
+{% extends 'layouts/raw.html' %}
+
+{% block pageScript %}
+	<script>
+		new Menu($('.menu'), '(min-width: 45em)');
+	</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+
+	<div class="menu">
+		<div class="menu-wrapper">
+			<input class="menu-item" type="submit" name="archive" value="Archive">
+			<input class="menu-item" type="submit" name="delete" value="Delete">
+			<input class="menu-item" type="submit" name="spam" value="Mark as spam">
+		</div>
+	</div>
+
+{% endblock mainContent %}

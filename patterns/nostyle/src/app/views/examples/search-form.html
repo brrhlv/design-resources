@@ -1,0 +1,28 @@
+{% extends 'layouts/base.html' %}
+{% set cnav = "search-box" %}
+
+{% block body %}
+	<header class="searchHeader">
+		<div>Header</div>
+	</header>
+	<div role="search">
+		<form class="searchForm">
+			{{textBox({
+				name: 'search',
+				label: 'Search products',
+				type: 'search',
+				hint: 'For example, “black wallet”'
+			})}}
+			{{primaryButton({
+				text: 'Search',
+				name: 'search'
+			})}}
+		</form>
+	</div>
+{% endblock %}
+
+{% block pageScript %}
+	<script>
+		new SearchForm();
+	</script>
+{% endblock pageScript %}

@@ -1,0 +1,53 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "upload" %}
+
+{% block pageScript %}
+<script>
+	if(typeof Dropzone != 'undefined') {
+		new Dropzone($('.dropzone'));
+	}
+</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+
+	{{h1({text: 'Upload files'})}}
+
+	<div class="prose">
+		<p>You can only upload PNG files.</p>
+	</div>
+
+	<div class="files {% if not files.length %}hidden{% endif%}">
+		<h2>Files added</h2>
+		<ul>
+			{% if files.length > 0 %}
+				{% for file in files %}
+					<li>
+						<a href="{{file.path}}">{{file.originalname}}</a>
+						<progress value="100" max="100">100%</progress>
+						<button class="secondaryButton">Delete</button>
+					</li>
+				{% endfor %}
+			{% endif %}
+		</ul>
+	</div>
+
+	<form enctype="multipart/form-data" method="post" action="/examples/upload">
+		<div class="dropzone">
+			{{fileInput({
+				name: 'documents',
+				labe: 'Choose file(s)',
+				multiple: true
+			})}}
+			{{secondaryButton({
+				text: 'Upload file',
+				name: 'upload'
+			})}}
+		</div>
+		{{primaryButton({
+			text: 'Continue',
+			name: 'continue'
+		})}}
+	</form>
+
+{% endblock mainContent %}

@@ -1,0 +1,60 @@
+
+
+@import "utilities";
+@import "spacing";
+@import "breakpoints";
+@import 'node_modules/sass-mq/mq.scss';
+@import 'colours';
+@import 'typography';
+@import 'buttons';
+@import 'fonts';
+@import 'base';
+@import 'layout';
+@import 'header';
+@import 'primary-nav';
+@import 'sub-nav';
+@import 'inbox';
+@import 'filter-page';
+@import 'search-page';
+@import 'forms/elements';
+
+@import 'seat-chooser/seat-chooser';
+@import 'error-summary/error-summary';
+@import 'dropzone/dropzone';
+@import 'stepper/stepper';
+@import 'select-all/select-all';
+@import 'autocomplete/autocomplete';
+@import 'menu/menu';
+@import 'add-another/add-another';
+@import 'date-picker/date-picker';
+@import 'password-revealer/password-revealer';
+@import 'example/example';
+
+
+.announcement {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #e1eef9;
+  background-color: #f2f8fd;
+  padding: 16px;
+  margin: 16px 16px 32px;
+  max-width: 500px;
+  img {
+    // float: left;
+    margin-right: 16px;
+    width: 80px;
+  }
+  div {
+    margin: 0;
+  }
+}
+
+.left-aligned-labels {
+	display: flex;
+	align-items: flex-start;
+
+	label {
+		width: 250px;
+		margin-right: 20px;
+	}
+}

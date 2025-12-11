@@ -1,0 +1,17 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set cnav = 'add-another' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+	{{h1({text: 'Patterns'})}}
+
+	<p>Guidance for user-focused tasks such as helping users upload files or pay for something.</p>
+
+{% endblock mainContent %}

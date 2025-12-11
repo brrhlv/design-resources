@@ -1,0 +1,263 @@
+.search {
+  @include clearfix;
+}
+
+.filter-heading {
+	margin-bottom: $spacing-scale-4;
+}
+
+.filter {
+	text-align: right;
+	@media(min-width: 50em) {
+		float: left;
+		width: 20%;
+		box-sizing: border-box;
+		text-align: left;
+		margin-right: $spacing-scale-4;
+	}
+}
+
+.enhanced .filter {
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	padding-top: $spacing-scale-2 - 1;
+	padding-bottom: $spacing-scale-2 - 1;
+	border-top: 1px solid $colour-gray-600;
+	border-bottom: 1px solid $colour-gray-600;
+	margin-bottom: $spacing-scale-4;
+	@media(min-width: 50em) {
+		padding-top: 0;
+		border-top: none;
+		border-bottom: none;
+		position: static;
+	}
+}
+
+.filter-wrapper {
+	padding-top: $spacing-scale-4;
+	background-color: $colour-gray-300;
+	text-align: left;
+}
+
+.enhanced .filter-wrapper {
+	position: fixed;
+	border-left: 1px solid $colour-gray-600;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.30);
+	padding: $spacing-scale-2 - 1;
+	top: 63px;
+	right: -1px;
+	width: 200px;
+	overflow-y: scroll;
+	top: 0;
+	bottom: 0;
+
+	@media(min-width: 50em) {
+		position: static;
+		border: none;
+		box-shadow: none;
+		padding: $spacing-scale-3;
+		overflow: auto;
+		max-height: 100%;
+		max-width: 100%;
+		width: auto;
+	}
+}
+
+.filter h2 {
+	margin-top: 0;
+	margin-bottom: $spacing-scale-3;
+}
+
+.products {
+	position: relative;
+	box-sizing: border-box;
+	@media(min-width: 50em) {
+		float: left;
+		width: 75%;
+	}
+
+	h2 {
+		margin-top: 0;
+		margin-bottom: $spacing-scale-3;
+	}
+}
+
+.products-wrapper {
+	display: grid;
+  grid-gap: $spacing-scale-2;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  margin-bottom: $spacing-scale-6;
+  @media(min-width: 50em) {
+  	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+.product {
+	background-color: #eee;
+	height: 200px;
+}
+
+.filter .field {
+	margin-bottom: 0;
+}
+
+.filter .field-options {
+	margin-bottom: $spacing-scale-6;
+}
+
+.filter legend {
+	display: block;
+	width: 100%;
+}
+
+.filter legend button {
+	all: inherit;
+	border: 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.filter legend button:focus {
+	box-shadow: none;
+}
+
+.filter legend button svg {
+	height: 1.2em;
+	margin-left: 0.5em;
+	margin-top: 0.2em;
+}
+
+[aria-expanded="true"] .vert {
+  display: none;
+}
+
+.filter legend button:focus svg {
+  box-shadow: 0 0 1px 4px $colour-yellow-500;
+}
+
+
+[aria-expanded="true"] + .filter-wrapper {
+	display: block;
+}
+
+[aria-expanded="false"] + .filter-wrapper {
+	display: none;
+}
+
+.filter form {
+	position: relative;
+}
+
+.filter .secondaryButton:first-child {
+	// position: sticky;
+	// top: 0;
+	// z-index: 2;
+	// margin-bottom: 20px;
+}
+
+.filter .secondaryButton:last-child {
+	// position: sticky;
+	// bottom: 0;
+	// z-index: 2;
+	// margin-top: 10px;
+}
+
+.current-filters {
+	margin-bottom: $spacing-scale-10;
+}
+
+.current-filters h3 {
+	margin-bottom: $spacing-scale-4;
+}
+
+.filter-close {
+	border: 0;
+  font-weight: bold;
+	position: absolute;
+	top: $spacing-scale-2;
+	right: $spacing-scale-2;
+	height: 2.5em;
+	width: 2.5em;
+	background: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+
+
+
+
+
+/**
+ * (C)Leanest CSS spinner ever
+ */
+
+ @keyframes spin {
+	to { transform: rotate(1turn); }
+}
+
+.progress {
+	left: 16px;
+	top: 48px;
+	position: absolute;
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+	margin: 0 .5em;
+	font-size: 12px;
+	text-indent: 999em;
+	overflow: hidden;
+	animation: spin 1s infinite steps(8);
+}
+
+.small.progress {
+	font-size: 6px;
+}
+
+.large.progress {
+	font-size: $spacing-scale-5;
+}
+
+.progress:before,
+.progress:after,
+.progress > div:before,
+.progress > div:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 2.25em; /* (container width - part width)/2  */
+	width: .5em;
+	height: 1.5em;
+	border-radius: .2em;
+	background: #eee;
+	box-shadow: 0 3.5em #eee; /* container height - part height */
+	transform-origin: 50% 2.5em; /* container height / 2 */
+}
+
+.progress:before {
+	background: #555;
+}
+
+.progress:after {
+	transform: rotate(-45deg);
+	background: #777;
+}
+
+.progress > div:before {
+	transform: rotate(-90deg);
+	background: #999;
+}
+
+.progress > div:after {
+	transform: rotate(-135deg);
+	background: #bbb;
+}
+
+.filter .field-checkbox label,
+.filter .field-radioButton label {
+	padding: 0;
+	background: none;
+	border: none;
+}

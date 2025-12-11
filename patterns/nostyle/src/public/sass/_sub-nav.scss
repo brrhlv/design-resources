@@ -1,0 +1,85 @@
+.subNav {
+  white-space: nowrap;
+  line-height: 1.5;
+  font-size: 1.0625em;
+  background-color: $colour-gray-300;
+  @media(min-width: 45em) {
+    @supports ( display: grid ) {
+      white-space: normal;
+    }
+  }
+}
+
+.subNav p {
+  @include typography(m);
+  font-weight: bold;
+  display: none;
+  margin-bottom: $spacing-scale-2;
+  @media(min-width: 45em) {
+    @supports ( display: grid ) {
+      display: block;
+    }
+  }
+}
+
+.subNav ul {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+  background-color: $colour-gray-300;
+  @media(min-width: 45em) {
+    @supports ( display: grid ) {
+      white-space: normal;
+      margin-bottom: $spacing-scale-10;
+      padding: 0;
+      display: block;
+    }
+  }
+}
+
+.subNav ul:last-child {
+  padding-right: $spacing-scale-2;
+  padding-left: 0;
+  @media(min-width: 45em) {
+    @supports ( display: grid ) {
+      padding-right: 0;
+    }
+  }
+}
+
+.subNav li {
+  margin-bottom: 0;
+  display: inline-block;
+  @media(min-width: 45em) {
+    @supports ( display: grid ) {
+      display: block;
+    }
+  }
+}
+
+.subNav a {
+  padding: $spacing-scale-2 $spacing-scale-3;
+  text-decoration: none;
+  display: block;
+  color: $colour-gray-800;
+  @media(min-width: 45em) {
+    border-left: 5px solid $colour-gray-300;
+    padding: $spacing-scale-1 $spacing-scale-2 $spacing-scale-1 $spacing-scale-3 - 5;
+  }
+}
+
+.subNav a:hover {
+  background-color: $colour-gray-400;
+  @media(min-width: 45em) {
+    border-left: 5px solid $colour-gray-800;
+  }
+}
+
+.subNav .subNav-link--active {
+  font-weight: bold;
+  background-color: $colour-gray-400;
+  @media(min-width: 45em) {
+    border-left: 5px solid $colour-gray-800;
+  }
+}

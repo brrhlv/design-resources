@@ -1,0 +1,45 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "stepper" %}
+
+{% block pageScript %}
+	<script>
+		new Stepper(document.getElementById('adults'), {
+			labelId: 'adults-label'
+		});
+		new Stepper(document.getElementById('children'), {
+			labelId: 'children-label'
+		});
+		new Stepper(document.getElementById('infants'), {
+			labelId: 'infants-label'
+		});
+	</script>
+{% endblock pageScript %}
+
+{% block pageHeader %}
+{% endblock pageHeader %}
+
+{% block mainContent %}
+	{{textBox({
+		name: 'adults',
+		label: 'How many people aged 16 and over are flying?', type: 'number',
+		value: '0',
+		attributes: 'min="0" max="9"',
+		labelId: 'adults-label'
+	})}}
+	<!-- {{textBox({
+		name: 'children',
+		label: 'How many children, aged between 2 and 15 years old, are flying?',
+		type: 'number',
+		value: '0',
+		attributes: 'min="0" max="9"',
+		labelId: 'children-label'
+	})}}
+	{{textBox({
+		name: 'infants',
+		label: 'How many infants, under 2 years old, are flying?', type: 'number',
+		value: '0',
+		attributes: 'min="0" max="9"',
+		labelId: 'infants-label'
+	})}} -->
+
+{% endblock mainContent %}

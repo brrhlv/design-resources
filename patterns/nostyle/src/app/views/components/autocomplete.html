@@ -1,0 +1,23 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Autocomplete - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'autocomplete' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+	{{h1({ text: 'Autocomplete' })}}
+
+	<p>Use the Autocomplete component to let users easily filter a list of options.</p>
+
+	{{example({
+		url: '/examples/autocomplete',
+		width: 400,
+		height: 200
+	})}}
+
+{% endblock mainContent %}

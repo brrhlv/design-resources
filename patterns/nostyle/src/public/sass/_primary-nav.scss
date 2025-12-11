@@ -1,0 +1,38 @@
+.primaryNav {
+	background-color: $colour-gray-800;
+}
+
+.primaryNav ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	white-space: nowrap;
+	overflow-x: scroll;
+	padding-left: 0;
+}
+
+.primaryNav li {
+	display: inline-block;
+	margin: 0;
+	line-height: 24 / 17;
+	font-size: 1.0625em;
+}
+
+.primaryNav a:link,
+.primaryNav a:visited {
+	display: block;
+	padding: $spacing-scale-2 $spacing-scale-3 $spacing-scale-3;
+	background-color: $colour-gray-800;
+	color: $colour-gray-100;
+	text-decoration: none;
+}
+
+.primaryNav a:hover {
+	background-color: $colour-gray-900;
+}
+
+.primaryNav a.primaryNav-active {
+	font-weight: bold;
+	text-decoration: none;
+	color: $colour-gray-300;
+}

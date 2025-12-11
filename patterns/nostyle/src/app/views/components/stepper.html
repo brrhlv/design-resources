@@ -1,0 +1,24 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Stepper - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'stepper' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+
+{% block mainContent %}
+	{{h1({ text: 'Stepper' })}}
+
+	<p>Use the Stepper component to let users make small adjustments to a number/quantity field.</p>
+
+	{{example({
+		url: '/examples/stepper',
+		width: 400,
+		height: 200
+	})}}
+
+{% endblock mainContent %}

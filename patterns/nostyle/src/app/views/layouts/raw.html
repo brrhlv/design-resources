@@ -1,0 +1,19 @@
+{% extends 'layouts/base.html' %}
+
+{% block body %}
+
+	<!-- <div class="announcement">
+		<img src="/public/img/fdp.png" alt="" width="100%" style="max-width: 60px"><br>
+		<div>
+			<p>This demo is from <a href="https://www.smashingmagazine.com/printed-books/form-design-patterns/">
+					Form Design Patterns</a> which is available to buy from Smashing Magazine as a beautiful hardbook or ebook.</p>
+		</div>
+	</div> -->
+
+	<div class="mainContent">
+		<div class="pageContent">
+			{% block mainContent %}
+			{% endblock%}
+		</div>
+	</div>
+{% endblock body %}

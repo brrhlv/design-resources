@@ -1,0 +1,23 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Memorable date - Components{% endblock %}
+
+{% set nav = 'components' %}
+{% set cnav = 'memorable-date' %}
+
+{% block menu %}
+	{% include "partials/components-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+	{{h1({ text: 'Memorable date' })}}
+
+	<p>Use the Memorable Date component to help users enter a date they already know.</p>
+
+	{{example({
+		url: '/examples/memorable-date',
+		width: 400,
+		height: 250
+	})}}
+
+{% endblock mainContent %}

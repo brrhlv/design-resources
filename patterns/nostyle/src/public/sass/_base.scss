@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Inter', 'helvetica neue', arial, sans-serif;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+a:link, a:visited {
+	color: $colour-gray-700;
+}
+
+@mixin clearfix {
+  &:after {
+    visibility: hidden;
+	  display: block;
+	  font-size: 0;
+	  content: " ";
+	  clear: both;
+	  height: 0;
+  }
+}
+
+.visually-hidden {
+	border: 0!important;
+  clip: rect(0 0 0 0)!important;
+  height: 1px!important;
+  margin: -1px!important;
+  overflow: hidden!important;
+  padding: 0!important;
+  position: absolute!important;
+  width: 1px!important;
+}
+
+.html {
+  border: 1px solid #bfc1c3;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 1.5em;
+  overflow: auto;
+  position: relative;
+}
+
+.hidden {
+	display: none;
+}
+
+#adults,
+#children,
+#infants {
+	width: 50px;
+}
+
+input[id$="[amount]"] {
+	width: 100px;
+}
+
+.introBits {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(304px, 2fr));
+	grid-gap: 0 $spacing-scale-4;
+	border-bottom: 1px solid $colour-gray-300;
+}
+
+.introBits-bit {
+	display: grid;
+	grid-template-rows: min-content auto min-content;
+}
+
+.introBits h2 {
+	margin-top: 0;
+}
+
+.section {
+	border-bottom: 1px solid $colour-gray-300;
+	padding-top: $spacing-scale-6;
+	padding-bottom: $spacing-scale-6;
+
+	h2 {
+		margin-top: 0;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.section:last-child {
+	border-bottom: 0;
+}
+
+.pageContent {
+	padding: $spacing-scale-4 $spacing-scale-2;
+	@include mq($from: md) {
+		padding: $spacing-scale-8 $spacing-scale-4;
+	}
+}
+
+.item-layout .pageContent {
+	padding: $spacing-scale-4;
+	@include mq($from: md) {
+		padding: $spacing-scale-8;
+	}
+}
+
+.h1, .prose h1 {
+	@include typography(xl);
+	margin-bottom: $spacing-scale-5;
+	color: $colour-gray-800;
+	max-width: 15em;
+}
+
+.h2, .prose h2 {
+	@include typography(m);
+	margin-bottom: $spacing-scale-2;
+	margin-top: $spacing-scale-5;
+	color: $colour-gray-800;
+	max-width: 20em;
+}
+
+.p, .prose p {
+	@include typography(body);
+	margin-bottom: $spacing-scale-6;
+	max-width: 30em;
+	color: $colour-gray-800;
+}
+
+.list, .prose ul {
+	margin-bottom: $spacing-scale-6;
+	margin-top: $spacing-scale-4;
+	padding-left: $spacing-scale-4;
+	max-width: 30em;
+	color: $colour-gray-800;
+}
+
+.listItem, .prose li {
+	@include typography(body);
+	margin-bottom: $spacing-scale-1;
+}
+
+.hero {
+	background-color: $colour-gray-200;
+	padding: $spacing-scale-4 $spacing-scale-2;
+	@include mq($from: md) {
+		padding: $spacing-scale-10 $spacing-scale-4;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	a:link,
+	a:visited {
+		color: $colour-gray-800;
+	}
+
+}

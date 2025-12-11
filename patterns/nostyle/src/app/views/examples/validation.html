@@ -1,0 +1,125 @@
+{% extends 'layouts/raw.html' %}
+
+{% block pageScript %}
+	<script>
+		var validator = new FormValidator(document.forms[0]);
+		validator.addValidator('email', [{
+		 	method: function(field) {
+		    return field.value.trim().length > 0;
+			},
+			message: 'Enter your email address'
+		},{
+			method: function(field) {
+	    	return (field.value.indexOf('@') > -1);
+	  	},
+			message: 'You need to enter the ‘at’ symbol in the email address'
+		}]);
+		validator.addValidator('notes', [{
+			method: function(field) {
+				return field.value.trim().length > 0;
+			},
+			message: 'Enter notes'
+		}]);
+		validator.addValidator('like', [{
+			method: function(field) {
+				return field.value.trim().length > 0;
+			},
+			message: 'Select your favourite item'
+		}]);
+	</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+
+	{{errorSummary({heading: "There's a problem", errors: [{
+		fieldName: 'email',
+		message: 'Enter your email address'
+	}, {
+		fieldName: 'document',
+		message: 'The document is too large'
+	}, {
+		fieldName: 'notes',
+		message: 'Enter notes'
+	}, {
+		fieldName: 'like',
+		message: 'Select your favourite item'
+	}, {
+		fieldName: 'colours',
+		message: 'Select at least one favourite colour'
+	}, {
+		fieldName: 'country',
+		message: 'Choose a country'
+	}]})}}
+
+	{{h1({ text: 'Page title' })}}
+
+	<form novalidate>
+		{{textBox({
+			name: 'email',
+			label: 'Email address',
+			error: 'Enter your email address'
+		})}}
+
+		{{fileInput({
+			name: 'document',
+			label: 'Upload file',
+			error: 'The document is too large'
+		})}}
+
+		{{textarea({
+			name: 'notes',
+			label: 'Notes',
+			error: 'Enter notes'
+		})}}
+
+		{{radioButtons({
+			name: 'like',
+			legend: 'What do you like the most?',
+			choices: [{
+				label: 'Chocolate',
+				id: 'like',
+				value: 'Chocolate'
+			}, {
+				label: 'Beer',
+				id: 'like1',
+				value: 'Beer'
+			}],
+			error: 'Select your favourite item'
+		})}}
+
+		{{checkboxes({
+			name: 'colours',
+			legend: 'Favourite colours',
+			choices: [{
+				label: 'Red',
+				id: 'colours'
+			}, {
+				label: 'Blue',
+				id: 'colours1'
+			},  {
+				label: 'Green',
+				id: 'colours2'
+			}],
+			error: 'Select at least one favourite colour'
+		})}}
+
+		{{selectBox({
+			name: 'country',
+			label: 'Country',
+			choices: [{
+				text: 'Select',
+				value: ''
+			}, {
+				text: 'Brazil',
+				value: 'Brazil'
+			}],
+			error: 'Choose a country'
+		})}}
+
+		{{primaryButton({
+			text: 'Continue',
+			name: 'continue'
+		})}}
+	</form>
+
+{% endblock mainContent %}

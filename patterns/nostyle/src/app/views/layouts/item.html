@@ -1,0 +1,23 @@
+{% extends 'layouts/base.html' %}
+
+{% set bodyClass = "item-layout" %}
+
+{% block body %}
+  <div class="wrapperPane">
+    {% include "partials/header.html" %}
+    {% include "partials/nav.html" %}
+    <div class="bodyPane">
+      <div class="subNavPane">
+        {% block menu %} {% endblock %}
+      </div>
+      <div class="contentPane">
+        <div class="pageContent">
+          <div class="prose">
+            {% block mainContent %}
+            {% endblock%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

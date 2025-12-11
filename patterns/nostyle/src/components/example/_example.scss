@@ -1,0 +1,28 @@
+.example {
+	margin-bottom: $spacing-scale-9;
+	overflow: hidden;
+	position: relative;
+	max-width: 760px;
+}
+
+.example iframe {
+	width: 100%;
+	border: 1px solid $colour-gray-500;
+	box-sizing: border-box;
+	display: block;
+}
+
+.example-link {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	background-color: $colour-gray-300;
+	margin-bottom: 0;
+	padding: $spacing-scale-1 $spacing-scale-3 $spacing-scale-2;
+
+	a {
+		color: $colour-gray-800;
+		font-size: em(14);
+		text-decoration: none;
+	}
+}

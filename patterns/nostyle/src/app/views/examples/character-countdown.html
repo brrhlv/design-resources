@@ -1,0 +1,16 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "characters-remaining" %}
+
+{% block pageScript %}
+	<script>
+		var ci = new CharacterCountdown(document.getElementById('notes'));
+	</script>
+{% endblock pageScript %}
+
+{% block mainContent %}
+	{{textarea({
+		name: 'notes',
+		label: 'Delivery notes'
+	})}}
+
+{% endblock mainContent %}

@@ -1,0 +1,9 @@
+{% extends 'layouts/raw.html' %}
+{% set cnav = "textarea" %}
+
+{% block mainContent %}
+	{{textarea({
+		name: 'notes',
+		label: 'Delivery notes'
+	})}}
+{% endblock mainContent %}

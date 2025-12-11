@@ -1,0 +1,22 @@
+{% extends 'layouts/item.html' %}
+
+{% block title %}Recover from errors - Patterns{% endblock %}
+
+{% set nav = 'patterns' %}
+{% set pnav = 'recover-from-errors' %}
+
+{% block menu %}
+	{% include "partials/patterns-nav.html" %}
+{% endblock %}
+
+{% block mainContent %}
+
+	{{h1({ text: 'Fix form errors' })}}
+
+	{{example({
+		url: '/examples/validation',
+		width: 400,
+		height: 1750
+	})}}
+
+{% endblock mainContent %}
