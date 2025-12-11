@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 397,
+    "totalResources": 402,
     "totalCategories": 35
   },
   "categories": [
@@ -528,8 +528,14 @@
       "id": 16,
       "name": "CSS Methodologies",
       "slug": "css-methodologies",
-      "description": "CSS methodologies and architectural patterns for scalable CSS",
-      "resources": []
+      "description": "CSS methodologies to help write modular, reusable and scalable code",
+      "resources": [
+        {"name": "OOCSS", "url": "http://oocss.org/", "description": "Object-Oriented CSS concepts for flexible, modular and interchangeable components"},
+        {"name": "Atomic CSS", "url": "https://acss.io/", "description": "CSS architecture favoring small, single-purpose classes with names based on visual function"},
+        {"name": "BEM", "url": "http://getbem.com/", "description": "Block Element Modifier methodology for reusable components and code sharing"},
+        {"name": "SMACSS", "url": "http://smacss.com/", "description": "Scalable and Modular Architecture for CSS - a flexible design process framework"},
+        {"name": "CUBE CSS", "url": "https://cube.fyi/", "description": "CSS methodology orientated towards simplicity, pragmatism and consistency"}
+      ]
     },
     {
       "id": 17,
