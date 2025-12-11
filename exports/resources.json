@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 204,
+    "totalResources": 212,
     "totalCategories": 35
   },
   "categories": [
@@ -256,7 +256,16 @@
       "name": "Favicons",
       "slug": "favicons",
       "description": "Resources for favicon generation and favicon assets",
-      "resources": []
+      "resources": [
+        {"name": "Favicon.io", "url": "https://favicon.io/", "description": "Generate a favicon from text, from an image, or from an emoji"},
+        {"name": "Favicomatic", "url": "https://favicomatic.com/", "description": "Generate favicons of all sizes and formats with HTML code for all browsers"},
+        {"name": "RealFaviconGenerator", "url": "https://realfavicongenerator.net/", "description": "Generate icons for all platforms (Windows, iOS, Android)"},
+        {"name": "FontIcon", "url": "https://gauger.io/fonticon/", "description": "Generate favicons and images from Font Awesome icons"},
+        {"name": "Favicon.cc", "url": "https://www.favicon.cc", "description": "Draw a favicon online and browse through a library of favicons"},
+        {"name": "Maskable.app Editor", "url": "https://maskable.app/editor/", "description": "Generate maskable PWA icons based on your existing icon"},
+        {"name": "Favicon Generator", "url": "https://favicon.inbrowser.app/", "description": "Generate website's favicon assets with SVG and maskable support"},
+        {"name": "FaviFiles", "url": "https://favifiles.com/", "description": "Generate pixel-perfect favicons for free in seconds"}
+      ]
     },
     {
       "id": 7,
