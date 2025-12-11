@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 609,
+    "totalResources": 616,
     "totalCategories": 35
   },
   "categories": [
@@ -842,7 +842,15 @@
       "name": "React Native UI Libraries",
       "slug": "react-native-ui-libraries",
       "description": "UI component libraries for React Native mobile development",
-      "resources": []
+      "resources": [
+        {"name": "NativeBase", "url": "https://nativebase.io/", "description": "Cross platform UI components for React Native"},
+        {"name": "React Native Paper", "url": "https://callstack.github.io/react-native-paper/", "description": "Material Design implementation for React Native applications"},
+        {"name": "Ignite", "url": "https://infinite.red/ignite", "description": "Complete React Native boilerplate with pre-built components and tooling"},
+        {"name": "UI Kitten", "url": "https://akveo.github.io/react-native-ui-kitten/", "description": "Customizable UI component library with theming capabilities for React Native"},
+        {"name": "React Native Elements", "url": "https://reactnativeelements.com/", "description": "Cross platform React Native UI toolkit"},
+        {"name": "Shoutem UI", "url": "https://shoutem.github.io/docs/ui-toolkit/introduction", "description": "Comprehensive UI toolkit designed for building React Native applications"},
+        {"name": "React Native Gesture Handler", "url": "https://github.com/software-mansion/react-native-gesture-handler", "description": "Library providing native gesture handling for React Native components"}
+      ]
     },
     {
       "id": 25,

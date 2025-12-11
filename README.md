@@ -959,7 +959,13 @@ A curated list of design resources including UI graphics, fonts, colors, icons, 
 
 | Website | Description |
 |---------|-------------|
-| | *Resources coming soon* |
+| [NativeBase](https://nativebase.io/) | Cross platform UI components for React Native |
+| [React Native Paper](https://callstack.github.io/react-native-paper/) | Material Design implementation for React Native applications |
+| [Ignite](https://infinite.red/ignite) | Complete React Native boilerplate with pre-built components and tooling |
+| [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) | Customizable UI component library with theming capabilities for React Native |
+| [React Native Elements](https://reactnativeelements.com/) | Cross platform React Native UI toolkit |
+| [Shoutem UI](https://shoutem.github.io/docs/ui-toolkit/introduction) | Comprehensive UI toolkit designed for building React Native applications |
+| [React Native Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler) | Library providing native gesture handling for React Native components |
 
 <div align="right">
     <b><a href="#table-of-contents">Back To Top</a></b>
