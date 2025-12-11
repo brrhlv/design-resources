@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 600,
+    "totalResources": 609,
     "totalCategories": 35
   },
   "categories": [
@@ -789,7 +789,53 @@
       "name": "Svelte UI Libraries",
       "slug": "svelte-ui-libraries",
       "description": "UI component libraries for Svelte",
-      "resources": []
+      "resources": [
+        {
+          "name": "Svelte Material UI",
+          "url": "https://sveltematerialui.com/",
+          "description": "UI library for Svelte based on Material Design"
+        },
+        {
+          "name": "SvelteStrap",
+          "url": "https://bestguy.github.io/sveltestrap/",
+          "description": "UI library for Svelte based on the Bootstrap framework"
+        },
+        {
+          "name": "Svelte Flat UI",
+          "url": "https://svelteui.js.org/",
+          "description": "UI library for Svelte based on Flat Design"
+        },
+        {
+          "name": "Attractions",
+          "url": "https://illright.github.io/attractions/",
+          "description": "A pretty cool UI kit for Svelte"
+        },
+        {
+          "name": "Svelteit",
+          "url": "https://docs.svelteit.dev",
+          "description": "Minimalistic UI/UX component library for Svelte and Sapper projects"
+        },
+        {
+          "name": "Carbon Components Svelte",
+          "url": "https://carbon-components-svelte.onrender.com/",
+          "description": "Component library implementing IBM's Carbon Design System"
+        },
+        {
+          "name": "Radix Svelte",
+          "url": "https://www.radix-svelte.com/",
+          "description": "Port of Radix UI for Svelte"
+        },
+        {
+          "name": "shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/",
+          "description": "Unofficial community-led Svelte port of shadcn/ui"
+        },
+        {
+          "name": "Skeleton",
+          "url": "https://www.skeleton.dev/",
+          "description": "Open source UI toolkit built with Svelte and Tailwind CSS"
+        }
+      ]
     },
     {
       "id": 24,
