@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 196,
+    "totalResources": 204,
     "totalCategories": 35
   },
   "categories": [
@@ -240,7 +240,16 @@
       "name": "Logos",
       "slug": "logos",
       "description": "Resources for logo design and logo assets",
-      "resources": []
+      "resources": [
+        {"name": "LogoSear.ch", "url": "https://logosear.ch/search.html", "description": "Search engine with over 200,000 SVG logos indexed"},
+        {"name": "SVGPorn", "url": "https://svgporn.com", "description": "1000+ high-quality SVG logos"},
+        {"name": "Payment System Logos", "url": "https://github.com/mpay24/payment-logos/", "description": "Logos for payment systems available in PNG and SVG"},
+        {"name": "Browser Logos", "url": "https://github.com/alrra/browser-logos/", "description": "High resolution web browser logos"},
+        {"name": "VectorLogoZone", "url": "https://www.vectorlogo.zone/", "description": "Consistently formatted SVG logos"},
+        {"name": "World Vector Logo", "url": "https://worldvectorlogo.com/", "description": "Download vector logos of brands you love"},
+        {"name": "Logo Maker", "url": "https://logomakr.com/", "description": "Create custom logos"},
+        {"name": "LOGOwine", "url": "https://www.logo.wine/", "description": "Brand logos free download in SVG vector and PNG file format"}
+      ]
     },
     {
       "id": 6,
