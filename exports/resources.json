@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 283,
+    "totalResources": 309,
     "totalCategories": 35
   },
   "categories": [
@@ -375,7 +375,34 @@
       "name": "Vectors & Clip Art",
       "slug": "vectors-clip-art",
       "description": "Free vectors, clipart, illustrations, and patterns",
-      "resources": []
+      "resources": [
+        {"name": "PNGFree.ai", "url": "https://pngfree.ai/", "description": "Millions of high-quality free PNG images"},
+        {"name": "Vecteezy", "url": "https://www.vecteezy.com/", "description": "Find and download free vector art"},
+        {"name": "Freepik", "url": "https://www.freepik.com", "description": "Free vectors, stock photos, PSD and icons"},
+        {"name": "Free Vectors", "url": "https://www.freevectors.net/", "description": "Community of vector lovers sharing free vector graphics"},
+        {"name": "PNGTree", "url": "https://pngtree.com/free-vectors", "description": "PNG, backgrounds, templates, text effects"},
+        {"name": "Vector4Free", "url": "https://www.vector4free.com/", "description": "Free vector graphics"},
+        {"name": "Freeble", "url": "http://freebbble.com/", "description": "Vectors, patterns, mockups and more"},
+        {"name": "Lukaszadam", "url": "https://lukaszadam.com/", "description": "Free vector artworks"},
+        {"name": "Illlustrations", "url": "https://illlustrations.co/", "description": "Beautiful 100 illustrations in PNG and SVG"},
+        {"name": "Clipart", "url": "https://www.clipart.email/", "description": "Clipart, PNG, coloring pages, drawings for projects"},
+        {"name": "Trianglify", "url": "https://trianglify.io/", "description": "Generate low-poly backgrounds, textures, and vectors"},
+        {"name": "Blob Maker", "url": "https://blobs.app/", "description": "Generate blob shapes for web and Flutter apps"},
+        {"name": "HiClipart", "url": "https://www.hiclipart.com/", "description": "Community for transparent background PNG cliparts"},
+        {"name": "Black Illustrations", "url": "https://www.blackillustrations.com/", "description": "Beautiful illustrations of black people, free and premium"},
+        {"name": "Delesign", "url": "https://delesign.com/free-designs/graphics", "description": "Collection of free illustrations and more"},
+        {"name": "Custom Shape Dividers", "url": "https://www.shapedivider.app/", "description": "Export beautiful SVG shape dividers"},
+        {"name": "Servier Medical Art", "url": "https://smart.servier.com", "description": "3000 free medical images for publications"},
+        {"name": "SVG Wave", "url": "https://svgwave.in/", "description": "Free, customizable gradient SVG wave generator"},
+        {"name": "BGjar", "url": "https://bgjar.com", "description": "Free SVG background generator"},
+        {"name": "Heritage Library", "url": "https://www.heritagetype.com/collections/free-vintage-illustrations", "description": "Vintage illustrations in vector and PNG formats"},
+        {"name": "RoboHash", "url": "https://robohash.org/", "description": "Generate unique images from any text"},
+        {"name": "Tabbied", "url": "https://tabbied.com/", "description": "Create and customize minimally generated patterns and artwork"},
+        {"name": "Haikei", "url": "https://app.haikei.app/", "description": "Multishape web app for design elements"},
+        {"name": "Vector.ma", "url": "https://vector.ma/", "description": "Moroccan vectors collection"},
+        {"name": "Heazy", "url": "https://app.heazy.studio/", "description": "Unique vector assets within seconds"},
+        {"name": "Mossaik", "url": "https://mossaik.app/", "description": "Free SVG generator with waves, tiles, blobs, and more"}
+      ]
     },
     {
       "id": 12,
