@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 266,
+    "totalResources": 274,
     "totalCategories": 35
   },
   "categories": [
@@ -342,7 +342,16 @@
       "name": "Stock Videos",
       "slug": "stock-videos",
       "description": "Websites that offer free stock videos for commercial and personal use",
-      "resources": []
+      "resources": [
+        {"name": "Pexels Videos", "url": "https://www.pexels.com/videos", "description": "Largest library of free to use videos, donated by the community"},
+        {"name": "Pixabay Videos", "url": "https://www.pixabay.com/videos", "description": "Large library of free to use videos, donated by the community"},
+        {"name": "Coverr", "url": "https://coverr.co/", "description": "Beautiful free stock video footage"},
+        {"name": "Videezy", "url": "https://www.videezy.com/", "description": "Free HD stock footage and 4K videos"},
+        {"name": "Mixkit", "url": "https://mixkit.co/", "description": "Stock video clips and music"},
+        {"name": "Videvo", "url": "https://www.videvo.net/stock-video-footage/", "description": "Free and premium stock videos"},
+        {"name": "SplitShire", "url": "https://www.splitshire.com/", "description": "Beautiful and exclusive free stock videos and photos"},
+        {"name": "Free Stock Video", "url": "https://free-stock.video", "description": "Free footage stock videos"}
+      ]
     },
     {
       "id": 10,

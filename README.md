@@ -420,7 +420,14 @@ A curated list of design resources including UI graphics, fonts, colors, icons, 
 
 | Website | Description |
 |---------|-------------|
-| | *Resources coming soon* |
+| [Pexels Videos](https://www.pexels.com/videos) | Largest library of free to use videos, donated by the community |
+| [Pixabay Videos](https://www.pixabay.com/videos) | Large library of free to use videos, donated by the community |
+| [Coverr](https://coverr.co/) | Beautiful free stock video footage |
+| [Videezy](https://www.videezy.com/) | Free HD stock footage and 4K videos |
+| [Mixkit](https://mixkit.co/) | Stock video clips and music |
+| [Videvo](https://www.videvo.net/stock-video-footage/) | Free and premium stock videos |
+| [SplitShire](https://www.splitshire.com/) | Beautiful and exclusive free stock videos and photos |
+| [Free Stock Video](https://free-stock.video) | Free footage stock videos |
 
 <div align="right">
     <b><a href="#table-of-contents">Back To Top</a></b>
