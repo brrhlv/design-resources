@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 460,
+    "totalResources": 474,
     "totalCategories": 35
   },
   "categories": [
@@ -616,7 +616,22 @@
       "name": "Javascript Chart Libraries",
       "slug": "javascript-chart-libraries",
       "description": "JavaScript libraries for data visualization and charts",
-      "resources": []
+      "resources": [
+        {"name": "Chart.js", "url": "https://www.chartjs.org/", "description": "Simple yet flexible JavaScript charting for designers and developers"},
+        {"name": "Frappe Charts", "url": "https://frappe.io/charts", "description": "GitHub-style grid charts and additional visualization options"},
+        {"name": "G2Plot", "url": "https://g2plot.antv.vision/en", "description": "Interactive, responsive charting library based on grammar of graphics"},
+        {"name": "Google Charts", "url": "https://developers.google.com/chart/", "description": "Create chart visualizations similar to those Google uses"},
+        {"name": "D3.js", "url": "https://d3js.org/", "description": "Bind complex data to interactive graphical representations"},
+        {"name": "ApexCharts", "url": "https://apexcharts.com/", "description": "Modern and interactive open-source charts library"},
+        {"name": "Chartist", "url": "http://gionkunz.github.io/chartist-js/index.html", "description": "Provides simple, responsive charting solutions"},
+        {"name": "Vizzu", "url": "https://lib.vizzuhq.com/0.3.0/", "description": "Free, open-source library for creating animated charts and data stories"},
+        {"name": "Ant Design Charts", "url": "https://ant-design-charts.antgroup.com/en/", "description": "Dynamic data visualization with excellent documentation"},
+        {"name": "Nivo", "url": "https://nivo.rocks/", "description": "React components for data visualization built on D3"},
+        {"name": "ECharts", "url": "https://echarts.apache.org/en/index.html", "description": "Open source JavaScript visualization library with declarative syntax"},
+        {"name": "VChart", "url": "https://visactor.io/vchart", "description": "Multi-terminal charting library for rapid deployment"},
+        {"name": "VTable", "url": "https://visactor.io/vtable", "description": "High-performance multidimensional analysis component using Canvas"},
+        {"name": "VStory", "url": "https://visactor.io/vstory", "description": "Narrative visualization system with built-in components"}
+      ]
     },
     {
       "id": 20,
