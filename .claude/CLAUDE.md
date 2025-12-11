@@ -13,14 +13,23 @@ A comprehensive, curated collection of design resources for developers and desig
 ## Repository Structure
 ```
 design-resources/
-├── README.md          # Main catalog (35 categories)
+├── README.md          # Main catalog (35 categories + local patterns)
 ├── PROGRESS.md        # Session tracking - READ THIS FIRST
 ├── .claude/CLAUDE.md  # This file
 ├── assets/            # Images, header
 ├── exports/
 │   ├── resources.json          # Full JSON export
 │   └── by-category/*.json      # Per-category JSON
-└── obsidian/          # Vault-compatible markdown files
+├── obsidian/          # Vault-compatible markdown files
+└── patterns/          # Local pattern library clones
+    ├── README.md              # Pattern libraries documentation
+    ├── react-bits/            # 110+ animated React components
+    ├── advanced-react-patterns/ # Kent C. Dodds workshop
+    ├── simorgh/               # BBC React design system
+    ├── hyperui/               # Tailwind CSS v4 components
+    ├── flowbite/              # Tailwind UI component library
+    ├── nostyle/               # Accessible A11y design system
+    └── animated-react-collection/ # Curated animated libs list
 ```
 
 ## Categories (35 Total)
