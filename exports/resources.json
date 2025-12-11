@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 358,
+    "totalResources": 373,
     "totalCategories": 35
   },
   "categories": [
@@ -474,7 +474,23 @@
       "name": "HTML & CSS Templates",
       "slug": "html-css-templates",
       "description": "Websites that offer free HTML & CSS templates",
-      "resources": []
+      "resources": [
+        {"name": "HTML5Up", "url": "https://html5up.net/", "description": "Very modern, unique responsive HTML5/CSS3 themes"},
+        {"name": "Templatemo", "url": "https://templatemo.com/", "description": "Minimal, resume, gallery themes and more"},
+        {"name": "Templated.co", "url": "https://templated.co/", "description": "Tons of minimalistic HTML5/CSS3 themes"},
+        {"name": "FreeHTML5", "url": "https://freehtml5.co/", "description": "Free & premium HTML5 and Bootstrap themes"},
+        {"name": "StyleShout", "url": "https://www.styleshout.com/free-templates/", "description": "Brilliantly crafted free website templates"},
+        {"name": "Start Bootstrap", "url": "https://startbootstrap.com/", "description": "Bootstrap starter themes"},
+        {"name": "Colorlib", "url": "https://colorlib.com/wp/templates/", "description": "Almost any category of theme you can think of"},
+        {"name": "Hubspot", "url": "https://www.hubspot.com/resources", "description": "Templates, infographics, banners and much more"},
+        {"name": "Mobirise", "url": "https://mobirise.com/html-templates/", "description": "Great looking HTML5/CSS3 templates"},
+        {"name": "Bootswatch", "url": "https://bootswatch.com/", "description": "Free themes for Bootstrap"},
+        {"name": "Onepagelove", "url": "https://onepagelove.com/", "description": "One page websites, templates and resources"},
+        {"name": "Themes For App", "url": "https://themesfor.app/", "description": "Free Bootstrap themes and landing pages"},
+        {"name": "BootstrapTaste", "url": "https://bootstraptaste.com/", "description": "Premium & Free Bootstrap Templates"},
+        {"name": "BootstrapMade", "url": "https://bootstrapmade.com/", "description": "Elegant, clean and beautiful free templates using Bootstrap"},
+        {"name": "W3Layouts", "url": "https://w3layouts.com/", "description": "Thousands of free website templates"}
+      ]
     },
     {
       "id": 15,
