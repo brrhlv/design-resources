@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "name": "Design Resources for Developers",
+    "version": "1.0.0",
+    "lastUpdated": "2024-12-10",
+    "totalResources": 0,
+    "totalCategories": 35
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "UI Graphics",
+      "slug": "ui-graphics",
+      "description": "Websites and resources for UI graphics, illustrations, patterns, and backgrounds",
+      "resources": []
+    },
+    {
+      "id": 2,
+      "name": "Fonts",
+      "slug": "fonts",
+      "description": "Websites that offer free fonts as well as font-based tools",
+      "resources": []
+    },
+    {
+      "id": 3,
+      "name": "Colors",
+      "slug": "colors",
+      "description": "Websites and resources for color palettes, gradients, and color tools",
+      "resources": []
+    },
+    {
+      "id": 4,
+      "name": "Icons",
+      "slug": "icons",
+      "description": "Resources for icons including icon libraries, icon fonts, and icon tools",
+      "resources": []
+    },
+    {
+      "id": 5,
+      "name": "Logos",
+      "slug": "logos",
+      "description": "Resources for logo design and logo assets",
+      "resources": []
+    },
+    {
+      "id": 6,
+      "name": "Favicons",
+      "slug": "favicons",
+      "description": "Resources for favicon generation and favicon assets",
+      "resources": []
+    },
+    {
+      "id": 7,
+      "name": "Icon Fonts",
+      "slug": "icon-fonts",
+      "description": "Resources for icon fonts and web font icons",
+      "resources": []
+    },
+    {
+      "id": 8,
+      "name": "Stock Photos",
+      "slug": "stock-photos",
+      "description": "Websites that offer free stock photos for commercial and personal use",
+      "resources": []
+    },
+    {
+      "id": 9,
+      "name": "Stock Videos",
+      "slug": "stock-videos",
+      "description": "Websites that offer free stock videos for commercial and personal use",
+      "resources": []
+    },
+    {
+      "id": 10,
+      "name": "Stock Music & Sound Effects",
+      "slug": "stock-music-sound-effects",
+      "description": "Websites that offer free music and sound effects for projects",
+      "resources": []
+    },
+    {
+      "id": 11,
+      "name": "Vectors & Clip Art",
+      "slug": "vectors-clip-art",
+      "description": "Free vectors, clipart, illustrations, and patterns",
+      "resources": []
+    },
+    {
+      "id": 12,
+      "name": "Product & Image Mockups",
+      "slug": "product-image-mockups",
+      "description": "Create mockups for products, devices, and app screenshots",
+      "resources": []
+    },
+    {
+      "id": 13,
+      "name": "UI Components & Kits",
+      "slug": "ui-components-kits",
+      "description": "UI component libraries and design kits",
+      "resources": []
+    },
+    {
+      "id": 14,
+      "name": "HTML & CSS Templates",
+      "slug": "html-css-templates",
+      "description": "Websites that offer free HTML & CSS templates",
+      "resources": []
+    },
+    {
+      "id": 15,
+      "name": "CSS Frameworks",
+      "slug": "css-frameworks",
+      "description": "CSS and UI frameworks for building responsive websites",
+      "resources": []
+    },
+    {
+      "id": 16,
+      "name": "CSS Methodologies",
+      "slug": "css-methodologies",
+      "description": "CSS methodologies and architectural patterns for scalable CSS",
+      "resources": []
+    },
+    {
+      "id": 17,
+      "name": "CSS Animations",
+      "slug": "css-animations",
+      "description": "CSS animation libraries and tools",
+      "resources": []
+    },
+    {
+      "id": 18,
+      "name": "Javascript Animation Libraries",
+      "slug": "javascript-animation-libraries",
+      "description": "JavaScript libraries for animations and motion effects",
+      "resources": []
+    },
+    {
+      "id": 19,
+      "name": "Javascript Chart Libraries",
+      "slug": "javascript-chart-libraries",
+      "description": "JavaScript libraries for data visualization and charts",
+      "resources": []
+    },
+    {
+      "id": 20,
+      "name": "React UI Libraries",
+      "slug": "react-ui-libraries",
+      "description": "UI component libraries for React",
+      "resources": []
+    },
+    {
+      "id": 21,
+      "name": "Vue UI Libraries",
+      "slug": "vue-ui-libraries",
+      "description": "UI component libraries for Vue.js",
+      "resources": []
+    },
+    {
+      "id": 22,
+      "name": "Angular UI Libraries",
+      "slug": "angular-ui-libraries",
+      "description": "UI component libraries for Angular",
+      "resources": []
+    },
+    {
+      "id": 23,
+      "name": "Svelte UI Libraries",
+      "slug": "svelte-ui-libraries",
+      "description": "UI component libraries for Svelte",
+      "resources": []
+    },
+    {
+      "id": 24,
+      "name": "React Native UI Libraries",
+      "slug": "react-native-ui-libraries",
+      "description": "UI component libraries for React Native mobile development",
+      "resources": []
+    },
+    {
+      "id": 25,
+      "name": "Design Systems & Style Guides",
+      "slug": "design-systems-style-guides",
+      "description": "Design systems, style guides, and component documentation",
+      "resources": []
+    },
+    {
+      "id": 26,
+      "name": "Online Design Tools",
+      "slug": "online-design-tools",
+      "description": "Web-based design tools and editors",
+      "resources": []
+    },
+    {
+      "id": 27,
+      "name": "Downloadable Design Software",
+      "slug": "downloadable-design-software",
+      "description": "Desktop design applications and software",
+      "resources": []
+    },
+    {
+      "id": 28,
+      "name": "Design Inspiration",
+      "slug": "design-inspiration",
+      "description": "Websites for design inspiration and references",
+      "resources": []
+    },
+    {
+      "id": 29,
+      "name": "Image Compression",
+      "slug": "image-compression",
+      "description": "Tools and services for image optimization and compression",
+      "resources": []
+    },
+    {
+      "id": 30,
+      "name": "Chrome Extensions",
+      "slug": "chrome-extensions",
+      "description": "Useful Chrome extensions for designers and developers",
+      "resources": []
+    },
+    {
+      "id": 31,
+      "name": "Firefox Extensions",
+      "slug": "firefox-extensions",
+      "description": "Useful Firefox extensions for designers and developers",
+      "resources": []
+    },
+    {
+      "id": 32,
+      "name": "AI Graphic Design Tools",
+      "slug": "ai-graphic-design-tools",
+      "description": "AI-powered tools for graphic design and image generation",
+      "resources": []
+    },
+    {
+      "id": 33,
+      "name": "AI/ML Development Tools",
+      "slug": "aiml-development-tools",
+      "description": "Tools and platforms for AI/ML development and integration",
+      "resources": []
+    },
+    {
+      "id": 34,
+      "name": "No-Code/Low-Code Platforms",
+      "slug": "no-code-low-code-platforms",
+      "description": "Visual development platforms requiring minimal coding",
+      "resources": []
+    },
+    {
+      "id": 35,
+      "name": "Others",
+      "slug": "others",
+      "description": "Miscellaneous resources that don't fit other categories",
+      "resources": []
+    }
+  ]
+}
