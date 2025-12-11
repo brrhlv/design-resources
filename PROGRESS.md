@@ -5,15 +5,16 @@
 
 ## Current Session
 - **Date**: 2024-12-10
-- **Last Category Completed**: Design Systems & Style Guides
-- **Resources Added This Session**: 653
-- **Next Category**: Online Design Tools
+- **Last Category Completed**: Online Design Tools
+- **Resources Added This Session**: 723
+- **Next Category**: Downloadable Design Software
 - **Status**: Extracting resources from reference repo
 
 ## Session History
 
 | Date | Categories Completed | Resources Added | Notes |
 |------|---------------------|-----------------|-------|
+| 2024-12-10 | Online Design Tools | 70 | 2 dead URLs excluded (kodeshot.net 000, fpece.com 404) |
 | 2024-12-10 | Design Systems & Style Guides | 37 | 2 dead URLs excluded (rizzo.lonelyplanet 000, skoda-brand 404) |
 | 2024-12-10 | React Native UI Libraries | 7 | All 7 URLs verified |
 | 2024-12-10 | Svelte UI Libraries | 9 | All 9 URLs verified (1 incomplete entry excluded) |
@@ -78,7 +79,7 @@
 | 23 | Svelte UI Libraries | complete | 9 | 2024-12-10 |
 | 24 | React Native UI Libraries | complete | 7 | 2024-12-10 |
 | 25 | Design Systems & Style Guides | complete | 37 | 2024-12-10 |
-| 26 | Online Design Tools | pending | 0 | - |
+| 26 | Online Design Tools | complete | 70 | 2024-12-10 |
 | 27 | Downloadable Design Software | pending | 0 | - |
 | 28 | Design Inspiration | pending | 0 | - |
 | 29 | Image Compression | pending | 0 | - |
@@ -90,10 +91,10 @@
 | 35 | Others | pending | 0 | - |
 
 ## Totals
-- **Categories Completed**: 25/35
-- **Total Resources**: 653
-- **Total Verified URLs**: 653
-- **Dead Links Found**: 50
+- **Categories Completed**: 26/35
+- **Total Resources**: 723
+- **Total Verified URLs**: 723
+- **Dead Links Found**: 52
 
 ## Notes
 - URL verification is enabled for all resources

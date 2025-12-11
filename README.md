@@ -1029,7 +1029,76 @@ A curated list of design resources including UI graphics, fonts, colors, icons, 
 
 | Website | Description |
 |---------|-------------|
-| | *Resources coming soon* |
+| [Figma](https://www.figma.com/graphic-design-tool/) | Online graphic design tool (Free & paid options) |
+| [Penpot](https://penpot.app/) | Open Source design and prototyping platform with SVG support |
+| [Vectr](https://vectr.com/) | Free vector graphics software |
+| [Taler](https://www.taler.app/) | Create social media banner designs from customizable templates |
+| [Canva](https://www.canva.com/) | Create beautiful designs (Free & Paid) |
+| [Get Waves](https://getwaves.io/) | Free SVG wave generator for web design |
+| [Clippy](https://bennettfeely.com/clippy/) | Easy CSS clip-path maker |
+| [Fancy Border Radius](https://9elements.github.io/fancy-border-radius/full-control.html) | Border-radius CSS generator with eight values |
+| [Wireframe.cc](https://wireframe.cc/) | Wireframing tool (free & paid) |
+| [Fotor](https://www.fotor.com/) | Photo editor and design maker |
+| [Pixlr](https://www.pixlr.com/) | Online photo editor |
+| [Animoto Video Maker](https://animoto.com/apps/online-video-maker) | Make videos online |
+| [RemoveBG](https://www.remove.bg/) | Remove image backgrounds |
+| [Photo Creator](https://photos.icons8.com/creator) | Create your own photos instead of searching for stock |
+| [Visme](https://www.visme.co/) | Create presentations, infographics and more |
+| [Infogram](https://infogram.com/) | Create infograms |
+| [ChartGo](https://www.chartgo.com/) | Create charts and graphs online |
+| [Cartoon Photo](https://cartoon.pho.to/) | Turn photos into cartoons |
+| [Whimsical](https://whimsical.com/) | Wireframes, diagrams and more |
+| [Whiteboard](https://witeboard.com/) | Online drawing tool |
+| [Octopus](https://octopus.do/) | Sitemap builder |
+| [Onlineboard](https://onlineboard.eu) | Real-time shareable whiteboard for brainstorming |
+| [CTA Button Maker](https://www.clickminded.com/button-generator/) | Create call to action buttons |
+| [Blobmaker](https://www.blobmaker.app/) | Free generative design tool for organic SVG shapes |
+| [Personas](https://personas.draftbit.com/) | Playful avatar generator |
+| [Photopea](https://www.photopea.com) | Online Photoshop editor |
+| [Excalidraw](https://excalidraw.com/) | Virtual whiteboard for sketching hand-drawn diagrams |
+| [Diagrams](https://www.diagrams.net/) | Diagram software and Flowchart maker |
+| [Mermaid](https://github.com/mermaid-js/mermaid) | Markdown-inspired text definitions for diagrams (FOSS) |
+| [MapInSeconds](http://mapinseconds.com/) | Simple data visualization with maps |
+| [Grid Malven](http://grid.malven.co/) | CSS grid cheatsheet reference |
+| [Flex Malven](http://flexbox.malven.co/) | Flexbox cheatsheet reference |
+| [Smart Upscaler](https://icons8.com/upscaler) | Upscale images by 2-4x resolution |
+| [GetAvataaars](https://getavataaars.com/) | Fun and colorful free avatars generator |
+| [Big Heads](https://github.com/RobertBroersma/bigheads) | Easily generate avatars for your projects |
+| [Webflow](https://webflow.com/) | Build business websites without coding |
+| [Trace](https://stickermule.com/trace) | Instantly remove photo backgrounds |
+| [Neumorphism.io](https://neumorphism.io/) | Generate Soft-UI CSS shadow code |
+| [DB Designer](https://app.dbdesigner.net/) | Design your database for free online |
+| [Ui Bakery](https://uibakery.io/) | Create full-fledged web apps visually |
+| [Faux](http://knutsynstad.com/fauxcode/) | Turn real code into faux code |
+| [Rive](https://rive.app/) | Real-time interactive design and animation tool |
+| [Unscreen](https://www.unscreen.com/) | Remove video background automatically and free |
+| [Wix](https://www.wix.com/) | Create a website you're proud of |
+| [GTmetrix](https://gtmetrix.com/) | Website speed and performance optimization |
+| [Yellow Lab Tools](https://yellowlab.tools/) | Online test for speeding up heavy web pages |
+| [Framer](https://www.framer.com/) | Prototyping tool for teams |
+| [Draw.io](https://www.draw.io/) | Free online diagram editor tool |
+| [UXWing SVG Editor](https://uxwing.com/svg-icon-editor) | Creating and editing SVG online |
+| [CSS Arrow](http://www.cssarrowplease.com/) | Create and export CSS code for custom box arrows |
+| [Lucidchart](https://www.lucidchart.com/pages/) | Diagramming and visualization tools |
+| [Carbon](https://carbon.now.sh) | Create beautiful images of your source code |
+| [PixCleaner](https://www.pixcleaner.com/) | Accurate background removal tool |
+| [Glass UI](https://ui.glass/generator) | Modern CSS UI library based on glassmorphism |
+| [Glassmorphism](https://glassmorphism.com/) | Online tool for glassmorphic UI CSS snippets |
+| [TableConvert](https://tableconvert.com/) | Web-based tool for table format conversions |
+| [Doodle Ipsum](https://doodleipsum.com/) | The lorem ipsum of illustrations |
+| [Figen](https://figen.cc/) | Post cover and background generator tool |
+| [Windframe](https://www.devwares.com/windframe/) | Rapidly prototype with Tailwind CSS |
+| [Slickr](https://slickr.vercel.app/) | Tool for designing blog cover images |
+| [Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/) | Create lush, realistic CSS shadows |
+| [Ray.so](https://ray.so/) | Create beautiful images of your code |
+| [Codepng](https://www.codepng.app/) | Convert source code into shareable images |
+| [CSS Grid Generator](https://grid.layoutit.com/) | Tool for creating CSS Grid layouts |
+| [JSONT](https://www.jsont.run/) | Simple and powerful online JSON formatting tool |
+| [Jitter](https://jitter.video/) | Online motion graphics/design tool |
+| [Visily](https://www.visily.ai) | Tool for non-designers to create app mockups |
+| [okso.app](https://okso.app) | Drawing app with nested structure |
+| [Scrollbar.app](https://scrollbar.app) | Simple editor for custom CSS scrollbars |
+| [GrapesJS](https://grapesjs.com/) | Open-source Web Builder Framework |
 
 <div align="right">
     <b><a href="#table-of-contents">Back To Top</a></b>
