@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 402,
+    "totalResources": 428,
     "totalCategories": 35
   },
   "categories": [
@@ -542,7 +542,34 @@
       "name": "CSS Animations",
       "slug": "css-animations",
       "description": "CSS animation libraries and tools",
-      "resources": []
+      "resources": [
+        {"name": "Animate.css", "url": "https://animate.style/", "description": "Just-add-water CSS animations library with cross-browser compatibility"},
+        {"name": "Anime.js", "url": "https://animejs.com/", "description": "Lightweight JavaScript animation library with a simple, yet powerful API"},
+        {"name": "Magic Animations", "url": "https://www.minimamente.com/project/magic/", "description": "CSS3 Animations with special effects"},
+        {"name": "Zdog", "url": "https://zzz.dog/", "description": "Round, flat, designer-friendly pseudo-3D engine for canvas and SVG"},
+        {"name": "CSShake", "url": "http://elrumordelaluz.github.io/csshake/", "description": "CSS classes to move your DOM with various shake effects"},
+        {"name": "Hover.css", "url": "http://ianlunn.github.io/Hover/", "description": "Collection of CSS3 powered hover effects for links, buttons, logos, and more"},
+        {"name": "AniJS", "url": "http://anijs.github.io/", "description": "Declarative handling library for CSS animations"},
+        {"name": "Animista", "url": "http://animista.net/", "description": "CSS animation playground with ready to use animations"},
+        {"name": "Bounce.js", "url": "http://bouncejs.com/", "description": "Tool and JS library for generating beautiful CSS3 powered keyframe animations"},
+        {"name": "Tachyons-animate", "url": "https://github.com/anater/tachyons-animate", "description": "Single-purpose classes to help you orchestrate CSS animations"},
+        {"name": "Sequence.js", "url": "https://www.sequencejs.com/", "description": "CSS animation framework for creating responsive sliders, presentations, and banners"},
+        {"name": "Infinite", "url": "https://tilomitra.github.io/infinite/", "description": "Pure CSS animations that you can drop into your projects"},
+        {"name": "OBNOXIOUS.CSS", "url": "http://tholman.com/obnoxious/", "description": "Animations for the strong of heart and weak of mind"},
+        {"name": "MOTION UI", "url": "https://zurb.com/playground/motion-ui", "description": "Sass library for creating transitions and animations"},
+        {"name": "Thoughtbot CSS Animation Guide", "url": "https://thoughtbot.com/blog/transitions-and-transforms", "description": "Guide to CSS transitions and transforms"},
+        {"name": "SVG Artista", "url": "https://svgartista.net/", "description": "SVG drawing animation generator"},
+        {"name": "AnimXYZ", "url": "https://animxyz.com/", "description": "Composable CSS animation toolkit with multiple animation effects"},
+        {"name": "Whirl", "url": "https://github.com/jh3y/whirl", "description": "CSS loading animations with minimal effort"},
+        {"name": "Hamburgers", "url": "https://jonsuh.com/hamburgers/", "description": "Tasty CSS-animated hamburger menu icons"},
+        {"name": "CSS Loaders & Spinners", "url": "https://cssloaders.github.io/", "description": "Collection of different types of CSS loaders and spinners"},
+        {"name": "Motion One", "url": "https://motion.dev/", "description": "A new animation library built on the Web Animations API"},
+        {"name": "pocoloco", "url": "https://pocoloco.io/", "description": "Generate dynamic backgrounds for your website"},
+        {"name": "AniX", "url": "https://adajuly.github.io/AniX/", "description": "Super easy and lightweight animation library"},
+        {"name": "AOS", "url": "https://michalsnik.github.io/aos/", "description": "Animate On Scroll library for scroll-triggered animations"},
+        {"name": "Animatopy", "url": "https://sarthology.github.io/Animatopy/", "description": "Just-add-water CSS animations snippets for animations"},
+        {"name": "Gradienty Animations", "url": "https://gradienty.codes/animations", "description": "Collection of CSS gradient animations"}
+      ]
     },
     {
       "id": 18,
