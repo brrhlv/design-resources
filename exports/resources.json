@@ -3,7 +3,7 @@
     "name": "Design Resources for Developers",
     "version": "1.0.0",
     "lastUpdated": "2024-12-10",
-    "totalResources": 309,
+    "totalResources": 326,
     "totalCategories": 35
   },
   "categories": [
@@ -409,7 +409,25 @@
       "name": "Product & Image Mockups",
       "slug": "product-image-mockups",
       "description": "Create mockups for products, devices, and app screenshots",
-      "resources": []
+      "resources": [
+        {"name": "MockCity", "url": "https://mockcity.com/", "description": "Bulk generate mockups from PSD templates by automatically placing images in SmartObjects"},
+        {"name": "Smart Mockups", "url": "https://smartmockups.com/", "description": "Create stunning product mockups, free and premium"},
+        {"name": "Media Modifier", "url": "https://mediamodifier.com/", "description": "Beautiful design mockups service for your products"},
+        {"name": "Shot Snap", "url": "https://shotsnapp.com/", "description": "Create beautiful device mockup images for your app or website design"},
+        {"name": "Screely", "url": "https://www.screely.com/", "description": "Instantly turn your screenshot into a mockup"},
+        {"name": "Screenshot.rocks", "url": "https://screenshot.rocks/", "description": "Create beautiful browser and mobile mockups in seconds"},
+        {"name": "Screen Peak", "url": "https://screenpeek.io/", "description": "Create a mockup from a URL"},
+        {"name": "Mockup World", "url": "https://www.mockupworld.co/", "description": "The biggest source of free photo-realistic mockups online"},
+        {"name": "Collab Shot", "url": "https://www.collabshot.com/", "description": "Real-time screen grabs and image sharing"},
+        {"name": "Mockuphone", "url": "https://mockuphone.com/", "description": "100% free mockups for all devices including iOS, Android, Windows Phone, Laptop and TV"},
+        {"name": "Device Shots", "url": "https://deviceshots.com/", "description": "Create high-resolution device mockups for social media, for free"},
+        {"name": "Clean Mock", "url": "https://cleanmock.com/", "description": "Create stunning mockups using latest device frames like iPhone X"},
+        {"name": "Mock.Video", "url": "https://www.mock.video/", "description": "Instantly create mockups by adding a device frame to your videos"},
+        {"name": "MockupBro", "url": "https://mockupbro.com/", "description": "Create product mockups with online mockup generator without watermark"},
+        {"name": "Animockup", "url": "https://github.com/alyssaxuu/animockup", "description": "Create animated mockups in the browser"},
+        {"name": "Pika", "url": "https://pika.style", "description": "Instantly create browser mockups and beautiful images for marketing"},
+        {"name": "Lunacy", "url": "https://icons8.com/lunacy", "description": "Create mockups from scratch for free"}
+      ]
     },
     {
       "id": 13,
