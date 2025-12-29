@@ -105,3 +105,74 @@
 - URL verification is enabled for all resources
 - Each resource is verified before adding to catalog
 - JSON and Obsidian exports generated after each category
+
+---
+
+## Major Changelog
+
+### 2025-12-11 - Repository Reorganization
+
+**Summary**: Restructured repository to support PAI design workflow with organized resource categories and decision frameworks.
+
+**Changes Made**:
+
+1. **Created `/resources/` folder** with 10 category subfolders:
+   - `fonts/` - Typography resources and pairings
+   - `colors/` - Color theory, palettes, accessibility
+   - `icons/` - Icon libraries and font icons
+   - `images/` - Stock photos, videos, vectors, mockups, logos
+   - `layout/` - CSS frameworks, methodologies, templates
+   - `motion/` - CSS and JS animation libraries
+   - `components/` - React, Vue, Angular, Svelte, React Native UI
+   - `media/` - Audio and video resources
+   - `tools/` - Online tools, software, chart libraries
+   - `inspiration/` - Design inspiration and design systems
+
+2. **Migrated 28 files** from `/obsidian/` to `/resources/`:
+   | Original | New Location |
+   |----------|--------------|
+   | fonts.md | resources/fonts/index.md |
+   | colors.md | resources/colors/index.md |
+   | icons.md | resources/icons/index.md |
+   | icon-fonts.md | resources/icons/icon-fonts.md |
+   | stock-photos.md | resources/images/stock-photos.md |
+   | stock-videos.md | resources/images/stock-videos.md |
+   | vectors-clip-art.md | resources/images/vectors-clip-art.md |
+   | logos.md | resources/images/logos.md |
+   | product-image-mockups.md | resources/images/mockups.md |
+   | ui-graphics.md | resources/images/ui-graphics.md |
+   | favicons.md | resources/images/favicons.md |
+   | css-frameworks.md | resources/layout/css-frameworks.md |
+   | css-methodologies.md | resources/layout/css-methodologies.md |
+   | html-css-templates.md | resources/layout/templates.md |
+   | css-animations.md | resources/motion/css-animations.md |
+   | javascript-animation-libraries.md | resources/motion/js-animation-libraries.md |
+   | react-ui-libraries.md | resources/components/react-ui.md |
+   | vue-ui-libraries.md | resources/components/vue-ui.md |
+   | svelte-ui-libraries.md | resources/components/svelte-ui.md |
+   | angular-ui-libraries.md | resources/components/angular-ui.md |
+   | react-native-ui-libraries.md | resources/components/react-native-ui.md |
+   | ui-components-kits.md | resources/components/kits.md |
+   | stock-music-sound-effects.md | resources/media/audio.md |
+   | online-design-tools.md | resources/tools/online-tools.md |
+   | downloadable-design-software.md | resources/tools/software.md |
+   | javascript-chart-libraries.md | resources/tools/chart-libraries.md |
+   | design-inspiration.md | resources/inspiration/index.md |
+   | design-systems-style-guides.md | resources/inspiration/design-systems.md |
+
+3. **Preserved `/patterns/`** folder unchanged (7 cloned repos)
+
+4. **Created `/resources/README.md`** with navigation and usage guide
+
+5. **Created decision frameworks** at `~/.claude/library/design/decision-frameworks/`:
+   - `font-selection.md` - Typography decision tree
+   - `color-selection.md` - Color palette decision tree
+   - `layout-selection.md` - Layout pattern decision tree
+   - `tool-routing.md` - Skill/agent routing guide
+
+**Why**: Previous structure had 28 flat files in `/obsidian/` with no organization. New structure groups resources by function and integrates with PAI design skills.
+
+**Impact**:
+- `/obsidian/` folder is now empty (can be deleted)
+- All resource paths updated in new structure
+- Decision frameworks provide standardized design process

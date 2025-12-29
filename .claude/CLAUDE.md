@@ -20,16 +20,28 @@ design-resources/
 ├── exports/
 │   ├── resources.json          # Full JSON export
 │   └── by-category/*.json      # Per-category JSON
-├── obsidian/          # Vault-compatible markdown files
-└── patterns/          # Local pattern library clones
-    ├── README.md              # Pattern libraries documentation
-    ├── react-bits/            # 110+ animated React components
-    ├── advanced-react-patterns/ # Kent C. Dodds workshop
-    ├── simorgh/               # BBC React design system
-    ├── hyperui/               # Tailwind CSS v4 components
-    ├── flowbite/              # Tailwind UI component library
-    ├── nostyle/               # Accessible A11y design system
-    └── animated-react-collection/ # Curated animated libs list
+├── resources/         # Organized reference docs (NEW - 2025-12-11)
+│   ├── README.md              # Navigation guide
+│   ├── fonts/                 # Typography resources
+│   ├── colors/                # Color theory & palettes
+│   ├── icons/                 # Icon libraries
+│   ├── images/                # Stock photos, videos, vectors, mockups
+│   ├── layout/                # CSS frameworks, methodologies, templates
+│   ├── motion/                # CSS and JS animation libraries
+│   ├── components/            # React, Vue, Angular, Svelte, RN UI
+│   ├── media/                 # Audio resources
+│   ├── tools/                 # Online tools, software, charts
+│   └── inspiration/           # Design inspiration & systems
+├── patterns/          # Local pattern library clones
+│   ├── README.md              # Pattern libraries documentation
+│   ├── react-bits/            # 110+ animated React components
+│   ├── advanced-react-patterns/ # Kent C. Dodds workshop
+│   ├── simorgh/               # BBC React design system
+│   ├── hyperui/               # Tailwind CSS v4 components
+│   ├── flowbite/              # Tailwind UI component library
+│   ├── nostyle/               # Accessible A11y design system
+│   └── animated-react-collection/ # Curated animated libs list
+└── obsidian/          # DEPRECATED - files migrated to /resources/
 ```
 
 ## Categories (35 Total)
